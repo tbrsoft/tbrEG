@@ -1,0 +1,640 @@
+BEGIN FORMULARIO
+	nombre=<Sin Nombre>
+	BEGIN HOJA
+		height= 5000
+		width= 10080
+		numero= 1
+		orientacion= 1
+		pathimagen=F:\Martin\TBR\cemi\ALCemi\formularios\fondorecibo.bmp
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 285
+	width= 705
+	id= 1
+	left= 1320
+	maxlength= 0
+	nombre=mes1
+	orden= 1
+	top= 3765
+END CAMPO
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 285
+	width= 495
+	id= 2
+	left= 2520
+	maxlength= 0
+	nombre=year1
+	orden= 2
+	top= 3765
+END CAMPO
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 285
+	width= 1125
+	id= 3
+	left= 1320
+	maxlength= 0
+	nombre=importe1
+	orden= 3
+	top= 4050
+END CAMPO
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 285
+	width= 1650
+	id= 4
+	left= 285
+	maxlength= 0
+	nombre=afiliado1
+	orden= 4
+	top= 1845
+END CAMPO
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 285
+	width= 1035
+	id= 5
+	left= 1980
+	maxlength= 0
+	nombre=dni1
+	orden= 5
+	top= 1860
+END CAMPO
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 285
+	width= 1830
+	id= 6
+	left= 3585
+	maxlength= 0
+	nombre=afiliado2
+	orden= 6
+	top= 1905
+END CAMPO
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 285
+	width= 870
+	id= 7
+	left= 5205
+	maxlength= 0
+	nombre=dni2
+	orden= 7
+	top= 1905
+END CAMPO
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 285
+	width= 705
+	id= 8
+	left= 4710
+	maxlength= 0
+	nombre=mes2
+	orden= 8
+	top= 3765
+END CAMPO
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 285
+	width= 705
+	id= 9
+	left= 5670
+	maxlength= 0
+	nombre=year2
+	orden= 9
+	top= 3765
+END CAMPO
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 285
+	width= 1125
+	id= 10
+	left= 4710
+	maxlength= 0
+	nombre=importe2
+	orden= 10
+	top= 4050
+END CAMPO
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 285
+	width= 1830
+	id= 11
+	left= 6885
+	maxlength= 0
+	nombre=afiliado3
+	orden= 11
+	top= 1935
+END CAMPO
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 285
+	width= 870
+	id= 12
+	left= 8655
+	maxlength= 0
+	nombre=dni3
+	orden= 12
+	top= 1935
+END CAMPO
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 285
+	width= 735
+	id= 13
+	left= 7965
+	maxlength= 0
+	nombre=mes3
+	orden= 13
+	top= 3765
+END CAMPO
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 285
+	width= 765
+	id= 14
+	left= 9030
+	maxlength= 0
+	nombre=year3
+	orden= 14
+	top= 3765
+END CAMPO
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 330
+	width= 1125
+	id= 15
+	left= 7980
+	maxlength= 0
+	nombre=importe3
+	orden= 15
+	top= 4050
+END CAMPO
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 250
+	width= 900
+	id= 16
+	left= 1935
+	maxlength= 0
+	nombre=fecha1
+	orden= 16
+	top= 760
+END CAMPO
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 250
+	width= 900
+	id= 17
+	left= 5220
+	maxlength= 0
+	nombre=fecha2
+	orden= 17
+	top= 760
+END CAMPO
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 285
+	width= 900
+	id= 18
+	left= 8520
+	maxlength= 0
+	nombre=fecha3
+	orden= 18
+	top= 760
+END CAMPO
+BEGIN TABLA
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize=8
+	height=1185
+	id=1
+	left=255
+	nombre=tabla1
+	orden=1
+	rows=6
+	top=2550
+	width=2760
+	tablestyle=0
+	BEGIN COLUMNA
+	datatype=1
+	descripcion=<Sin Descripcion>
+	errormessage=
+	fontbold=Falso
+	fontitalic=Falso
+	fontname=MS Sans Serif
+	fontsize=8
+	forecolor=0
+	id=1
+	maxlength=0
+	nombre=nombre
+	orden=1
+	width=2750
+	alineacion=1
+END COLUMNA
+
+END TABLA
+
+BEGIN TABLA
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize=8
+	height=1215
+	id=2
+	left=3645
+	nombre=tabla2
+	orden=2
+	rows=6
+	top=2565
+	width=2610
+	tablestyle=0
+	BEGIN COLUMNA
+	datatype=1
+	descripcion=<Sin Descripcion>
+	errormessage=
+	fontbold=Falso
+	fontitalic=Falso
+	fontname=MS Sans Serif
+	fontsize=8
+	forecolor=0
+	id=1
+	maxlength=0
+	nombre=nombre
+	orden=1
+	width=2600
+	alineacion=1
+END COLUMNA
+
+END TABLA
+
+BEGIN TABLA
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize=8
+	height=1215
+	id=3
+	left=6885
+	nombre=tabla3
+	orden=3
+	rows=6
+	top=2565
+	width=2640
+	tablestyle=0
+	BEGIN COLUMNA
+	datatype=1
+	descripcion=<Sin Descripcion>
+	errormessage=
+	fontbold=Falso
+	fontitalic=Falso
+	fontname=MS Sans Serif
+	fontsize=8
+	forecolor=0
+	id=1
+	maxlength=0
+	nombre=nombre
+	orden=1
+	width=2600
+	alineacion=1
+END COLUMNA
+
+END TABLA
+
+BEGIN LINEA
+	id=1
+	x1=278
+	x2=3038
+	y1=2512
+	y2=2512
+	color=-2147483640
+	estilo=1
+END LINEA
+BEGIN LINEA
+	id=2
+	x1=3600
+	x2=6292
+	y1=2512
+	y2=2512
+	color=-2147483640
+	estilo=1
+END LINEA
+BEGIN LINEA
+	id=3
+	x1=6870
+	x2=9488
+	y1=2512
+	y2=2512
+	color=-2147483640
+	estilo=1
+END LINEA
+BEGIN LINEA
+	id=4
+	x1=248
+	x2=3052
+	y1=3712
+	y2=3712
+	color=-2147483640
+	estilo=1
+END LINEA
+BEGIN LINEA
+	id=5
+	x1=3608
+	x2=6308
+	y1=3712
+	y2=3712
+	color=-2147483640
+	estilo=1
+END LINEA
+BEGIN LINEA
+	id=6
+	x1=6848
+	x2=9488
+	y1=3712
+	y2=3712
+	color=-2147483640
+	estilo=1
+END LINEA
+BEGIN LINEA
+	id=7
+	x1=262
+	x2=1402
+	y1=1822
+	y2=1822
+	color=-2147483640
+	estilo=1
+END LINEA
+BEGIN LINEA
+	id=8
+	x1=3548
+	x2=4732
+	y1=1822
+	y2=1822
+	color=-2147483640
+	estilo=1
+END LINEA
+BEGIN LINEA
+	id=9
+	x1=6892
+	x2=8108
+	y1=1852
+	y2=1852
+	color=-2147483640
+	estilo=1
+END LINEA
+BEGIN CAMPOLABEL
+	descripcion=<Sin Descripcion>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 255
+	width= 1080
+	id= 1
+	left= 255
+	nombre=<Sin Nombre>
+	top= 3765
+	text=Pago mes de:
+END CAMPOLABEL
+BEGIN CAMPOLABEL
+	descripcion=<Sin Descripcion>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 255
+	width= 285
+	id= 2
+	left= 2070
+	nombre=<Sin Nombre>
+	top= 3765
+	text=de
+END CAMPOLABEL
+BEGIN CAMPOLABEL
+	descripcion=<Sin Descripcion>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 255
+	width= 660
+	id= 3
+	left= 615
+	nombre=<Sin Nombre>
+	top= 4065
+	text=Total: $
+END CAMPOLABEL
+BEGIN CAMPOLABEL
+	descripcion=<Sin Descripcion>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 240
+	width= 1110
+	id= 4
+	left= 270
+	nombre=<Sin Nombre>
+	top= 1575
+	text=Afiliado Titular:
+END CAMPOLABEL
+BEGIN CAMPOLABEL
+	descripcion=<Sin Descripcion>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 255
+	width= 1365
+	id= 5
+	left= 270
+	nombre=<Sin Nombre>
+	top= 2280
+	text=Afiliados a cargo:
+END CAMPOLABEL
+BEGIN CAMPOLABEL
+	descripcion=<Sin Descripcion>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 255
+	width= 1125
+	id= 6
+	left= 3570
+	nombre=<Sin Nombre>
+	top= 1590
+	text=Afiliado Titular:
+END CAMPOLABEL
+BEGIN CAMPOLABEL
+	descripcion=<Sin Descripcion>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 255
+	width= 1755
+	id= 7
+	left= 3600
+	nombre=<Sin Nombre>
+	top= 2280
+	text=Afiliados a cargo:
+END CAMPOLABEL
+BEGIN CAMPOLABEL
+	descripcion=<Sin Descripcion>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 240
+	width= 1000
+	id= 8
+	left= 3645
+	nombre=<Sin Nombre>
+	top= 3765
+	text=Pago mes de:
+END CAMPOLABEL
+BEGIN CAMPOLABEL
+	descripcion=<Sin Descripcion>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 255
+	width= 215
+	id= 9
+	left= 5300
+	nombre=<Sin Nombre>
+	top= 3765
+	text=de
+END CAMPOLABEL
+BEGIN CAMPOLABEL
+	descripcion=<Sin Descripcion>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 255
+	width= 630
+	id= 10
+	left= 4020
+	nombre=<Sin Nombre>
+	top= 4050
+	text=Total: $
+END CAMPOLABEL
+BEGIN CAMPOLABEL
+	descripcion=<Sin Descripcion>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 255
+	width= 1605
+	id= 11
+	left= 6900
+	nombre=<Sin Nombre>
+	top= 1575
+	text=Afiliado Titular:
+END CAMPOLABEL
+BEGIN CAMPOLABEL
+	descripcion=<Sin Descripcion>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 260
+	width= 1935
+	id= 12
+	left= 6870
+	nombre=<Sin Nombre>
+	top= 2280
+	text=Afiliados a Cargo:
+END CAMPOLABEL
+BEGIN CAMPOLABEL
+	descripcion=<Sin Descripcion>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 255
+	width= 1020
+	id= 13
+	left= 6900
+	nombre=<Sin Nombre>
+	top= 3765
+	text=Pago mes de:
+END CAMPOLABEL
+BEGIN CAMPOLABEL
+	descripcion=<Sin Descripcion>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 250
+	width= 250
+	id= 14
+	left= 8700
+	nombre=<Sin Nombre>
+	top= 3765
+	text=de
+END CAMPOLABEL
+BEGIN CAMPOLABEL
+	descripcion=<Sin Descripcion>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 255
+	width= 630
+	id= 15
+	left= 7290
+	nombre=<Sin Nombre>
+	top= 4065
+	text=Total: $
+END CAMPOLABEL
+END HOJA
+END FORMULARIO

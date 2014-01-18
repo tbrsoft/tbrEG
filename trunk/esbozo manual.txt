@@ -1,0 +1,17 @@
+abm afiliado
+
+el nro de afiliado no se puede modificar.
+
+teclas de acceso directo:
+
+F1: Ayuda (No implementado por el momento)
+F2: Modificar
+
+
+F5: Actualizar
+F6: Registrar Nueva Atencion
+
+
+F9: Registrar Cobro
+F10:Registrar cobro (En empleado)
+F11:registrar recibos anulados

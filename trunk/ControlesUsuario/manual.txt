@@ -1,0 +1,5 @@
+Manual para el programador de controlesPOO
+
+lvwConsulta:
+	la clave de cada campo es miembro.
+	para utilizarlo... (hacer, ja!)

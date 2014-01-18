@@ -1,0 +1,19 @@
+SELECT a.copago, a.fecha, em.id  FROM Atencion a, EquipoXAtencion ea, Empleado em, EmpleadoXEquipo ee, Equipo eq
+WHERE a.id=ea.idAtencion AND em.id=ee.IDEmpleado AND ea.idequipo=eq.id
+
+da los copagos por empleado, habria que meterle el filtro de las fechas
+
+agregue una parecida, habria q combinar las dos para q quede bien
+
+SELECT m.id AS idEquipo, a.fecha AS fecha, sum(a.abonado)
+FROM movil AS m, Atencion AS a, Equipo AS e, EquipoXAtencion AS exa
+WHERE a.id=exa.idAtencion And exa.idEquipo=e.id And m.id=e.idMovil
+GROUP BY m.id, a.fecha;
+
+------------------------------------------------------------------------------------
+SELECT  em.Nombre,a.fecha as fecha , Count(a.Id) AS CantidadAtenciones
+FROM Atencion AS a, Equipo AS e, EquipoXAtencion AS exa, EmpleadoXEquipo AS exe, empleado AS em
+WHERE a.Id=exa.idAtencion AND exa.idEquipo=e.id  AND exe.idEmpleado=em.id
+GROUP BY em.Nombre,a.fecha;
+
+da las atenciones por empleado, no funciona

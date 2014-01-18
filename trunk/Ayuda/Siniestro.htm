@@ -1,0 +1,170 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<Title>Siniestro.</Title>
+</HEAD>
+<BODY>
+    <h2>
+        Registro de Siniestros</h2>
+    <p>
+        El procedimiento de registro de siniestros es cubierto en esta sección. Para registrar
+        un siniestro el usuario puede acceder al formulario a traves de distintas opciones:</p>
+    <ul>
+        <li>1. Desde el menú: <strong>Siniestro -&gt; Registrar Siniestro</strong>. </li>
+        <li>2. Desde el teclado: Tecla <strong>F6</strong>. </li>
+        <li>3. Desde el formulario <strong><a href="ConsultaSiniestros.htm">Siniestros Pendientes</a></strong>: Botón “Registrar Nuevo Siniestro”. </li>
+        <li>4. Llamada entrante: Si tiene instalado el plugin para registrar llamadas telefónicas,
+            cuando ingrese una llamada se despliega un aviso desde el cual se puede seleccionar
+            la opción <strong>Registrar Siniestro</strong>. </li>
+    </ul>
+    <p>
+        El Parte de Salida esta dividido en cinco pestañas:</p>
+    <ol>
+        <li>Principal</li>
+        <li>Datos del siniestro.</li>
+        <li>Personas Afectadas.</li>
+        <li>Bienes Afectados.</li>
+        <li>Colaboracion.</li>
+    </ol>
+    <p>
+        A continuacion se analizan cada unas de las pestañas.</p>
+    <h3>
+        1. Principal</h3>
+    <p>
+        En la pestaña principal se encuentran los datos correspondientes al cuartel, que
+        incluyen entre otros:</p>
+    <ul>
+        <li>Grado y Tipo del Siniestro.</li>
+        <li>Dotacion.</li>
+        <li>Tiempos.</li>
+    </ul>
+    <p>
+        <img src="Graphics/Siniestro.bmp" />&nbsp;</p>
+    <h4>
+        Tiempos</h4>
+    <p>
+        El sistema permite registrar los tiempos en los que el cuartel recibe la llamada
+        de emergencia, acude al lugar del hecho, regresa al cuartel, etc.</p>
+    <p>
+        El proceso se puede resumir en los siguientes pasos:</p>
+    <ul>
+        <li>El cuartel recibe una llamada.</li>
+        <li>El encargado envia un movil para una preinspeccion al lugar del siniestro. El encargado
+            selecciona el boton <strong>Salida PreInspeccion</strong> para registrar la salida.</li>
+        <li>El movil enviado se comunica para notificar que arribo al lugar de la emergencia.
+            En este paso el encargado selecciona <strong>Arribo PreInspeccion.</strong></li>
+    </ul>
+    <p>
+        El paso siguiente depende de si fue un aviso real o una falsa alarma. En caso de
+        que sea una falsa alarma se registra en observaciones. Si la llamada fue real se
+        continua el registro del siniestro de la siguiente manera:</p>
+    <ul>
+        <li>Se envia la dotacion, hecho que se registra mediante el botón <strong>Salida Dotacion.</strong></li>
+        <li>Cuando la dotacion arriba al lugar se selecciona <strong>Arribo al Lugar (QTH).</strong></li>
+        <li>Al momento de finalizar las tareas en el lugar se elige <strong>Registrar Liberación
+            (VL).</strong></li>
+    </ul>
+    <p>
+        Cabe aclarar que la Preinspeccion es opcional, se puede enviar directamente la dotacion
+        y comenzar a registrar desde la <strong>Salida Dotacion.</strong></p>
+    <p>
+        El registro de los tiempos tambien puede ser realizado desde la Consulta de Siniestros.</p>
+    <h3>
+        2. Datos del Siniestro</h3>
+    <p>
+        En esta pestaña se encuentran los datos de ubicacion, personas que se comunicaron
+        y referencias del siniestro.</p>
+    <p>
+        <img src="Graphics/SiniestroDatosSiniestro.bmp" />&nbsp;</p>
+    <p>
+        Contemplando la situacion en la que varias personas se comunican para informar del
+        mismo siniestro (como puede ser un accidente de transito o un incendio), el sistema
+        cuenta con una lista de personas que llaman al cuartel, que suelen denominarse Solicitantes.</p>
+    <p>
+        Para registrar un Solicitante se elige el boton + que se encuentra a la derecha
+        de la lista. El sistema muestra la siguiente pantalla:</p>
+    <p>
+        <img src="Graphics/SiniestroSolicitante.bmp" />&nbsp;</p>
+    <p>
+        En la misma se ingrsan los datos del solicitante, permitiendo registrar la relacion
+        del solicitante con el siniestro (testigo ocasional, propietario, conductor, etc..)</p>
+    <p>
+        <table style="width: 100%">
+            <tr>
+                <td style="width: 15%">
+                </td>
+                <td style="background-color: #e5e5e5">
+                    <span style="font-size: 10pt; font-family: Arial Black; background-color: #e5e5e5">Nota</span></td>
+                <td style="width: 15%">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td style="background-color: #cccccc; text-align: justify">
+                    Los datos de los solicitantes, afectados vehiculos etc, no se guardan en la base
+                    de datos hasta que no se guarda el Siniestro. Es recomendable guardar el siniestro
+                    con los datos basicos y completar luego la carga de datos para evitar inconvenientes.</td>
+                <td>
+                </td>
+            </tr>
+        </table>
+    </p>
+    <br />
+    <h3>
+        3. Personas Afectadas</h3>
+    <p>
+        En esta pestaña se encuentra una lista similar a la de Solicitantes, solo que aqui
+        se registran los datos de las personas afectadas por el siniestro.</p>
+    <p>
+        En caso de que el solicitante sea a la vez afectado por el siniestro (por ejemplo,
+        en un accidente donde llama el dueño del vehiculo damnificado) se recomienda registrarlo
+        como Solicitante aclarando en la relacion que es a la vez damnificado.</p>
+    <h3>
+        4. Bienes Afectados</h3>
+    <p>
+        En esta pestaña de registran todos los bienes que hayan resultado damnificados por
+        el siniestro. El sistema permite registrar una lista de vehiculos, daños a la vivienda,
+        daños a campos o baldio, junto con datos complementarios como conexion de gas y
+        electricidad, e incluyendo datos del seguro si correspondiera.</p>
+    <p>
+        <img src="Graphics/SiniestroBienes.bmp" />&nbsp;</p>
+    <h3>
+        5. Colaboracion</h3>
+    <p>
+        En esta ultima pestaña se registra la colaboracion recibida de otros Cuerpos de
+        Bomberos, Policia y Centros Asistenciales.</p>
+    <p>
+        <img src="Graphics/SiniestroColaboracion.bmp" />&nbsp;</p>
+    <p>
+        En general, con el paso del tiempo el Cuartel colaborará y recibirá colaboración
+        de Cuarteles de la zona. Para evitar la repetición de datos el sistema va almacenando
+        los datos de colaboraciones recibidas.
+        <table style="width: 100%">
+            <tr>
+                <td>
+                    Para registrar la colaboracion de un Cuerpo de Bomberos se selecciona el boton +
+                    a la derecha de la lista, y el sistema muestra el presente formulario.<br />
+                    A continuacion se debe seleccionar un Cuerpo de Bomberos. De no existir se elige
+                    la opcion Buscar que se encuentra a la derecha de la lista de Cuerpos, se registran
+                    los datos del Cuerpo del que se esta recibiendo la colaboración, se guardan los
+                    datos y luego se selecciona el Cuerpo registrado. Acto seguido se selecciona el
+                    Responsable del Cuerpo y la Unidad utilizada. Al igual que antes, si no se encuentran
+                    en la lista se elige la opción <strong>&lt;Nuevo&gt;</strong>, y se carga el nombre
+                    o la unidad segun corresponda. Por ultimo se pueden ingresar observaciones opcionalmente
+                    y luego el boton <strong>Aceptar</strong> envía los datos al formulario de Registro
+                    de Siniestro.</td>
+                <td style="width: 367px">
+                    <img src="Graphics/Colaboracion.bmp" /></td>
+            </tr>
+        </table>
+    </p>
+    <br />
+    <br />
+    Hasta aqui se explico lo referente a la carga de Siniestros. Una vez guardado el
+    siniestro el sistema permite realizar modificaciones sobre el mismo a traves de
+    la opcion <strong>Modificar</strong> en <strong><a href="ConsultaSiniestros.htm">Siniestros
+        Pendientes</a>.</strong>
+</BODY>
+</HTML>

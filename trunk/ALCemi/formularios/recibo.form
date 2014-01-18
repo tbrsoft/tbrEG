@@ -1,0 +1,154 @@
+BEGIN FORMULARIO
+	nombre=Recibo
+	BEGIN HOJA
+		height= 0
+		width= 0
+		numero= 1
+		orientacion= 1
+		pathimagen=
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 435
+	width= 1125
+	id= 1
+	left= 1620
+	maxlength= 0
+	nombre=Total1
+	orden= 1
+	top= 2520
+END CAMPO
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 435
+	width= 1125
+	id= 2
+	left= 4890
+	maxlength= 0
+	nombre=Total2
+	orden= 2
+	top= 2565
+END CAMPO
+BEGIN CAMPO
+	datatype= 1
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize= 8
+	height= 435
+	width= 1125
+	id= 3
+	left= 8190
+	maxlength= 0
+	nombre=Total3
+	orden= 3
+	top= 2520
+END CAMPO
+BEGIN TABLA
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize=8
+	height=1755
+	id=1
+	left=645
+	nombre=Afiliados1
+	orden=1
+	rows=10
+	top=600
+	width=2025
+	tablestyle=0
+	BEGIN COLUMNA
+	datatype=1
+	descripcion=<Sin Descripcion>
+	errormessage=
+	fontbold=Falso
+	fontitalic=Falso
+	fontname=MS Sans Serif
+	fontsize=8
+	forecolor=0
+	id=1
+	maxlength=0
+	nombre=Nombre
+	orden=1
+	width=2000
+	alineacion=1
+END COLUMNA
+
+END TABLA
+
+BEGIN TABLA
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize=8
+	height=1740
+	id=2
+	left=3990
+	nombre=Afiliados2
+	orden=2
+	rows=10
+	top=615
+	width=1980
+	tablestyle=0
+	BEGIN COLUMNA
+	datatype=1
+	descripcion=<Sin Descripcion>
+	errormessage=
+	fontbold=Falso
+	fontitalic=Falso
+	fontname=MS Sans Serif
+	fontsize=8
+	forecolor=0
+	id=1
+	maxlength=0
+	nombre=Nombre
+	orden=1
+	width=2000
+	alineacion=1
+END COLUMNA
+
+END TABLA
+
+BEGIN TABLA
+	descripcion=<Sin Descripcion>
+	errormessage=<Sin Mensaje de Error>
+	fontname=MS Sans Serif
+	fontsize=8
+	height=1680
+	id=3
+	left=7275
+	nombre=Afiliados3
+	orden=3
+	rows=10
+	top=675
+	width=1980
+	tablestyle=0
+	BEGIN COLUMNA
+	datatype=1
+	descripcion=<Sin Descripcion>
+	errormessage=
+	fontbold=Falso
+	fontitalic=Falso
+	fontname=MS Sans Serif
+	fontsize=8
+	forecolor=0
+	id=1
+	maxlength=0
+	nombre=Nombre
+	orden=1
+	width=2000
+	alineacion=1
+END COLUMNA
+
+END TABLA
+
+END HOJA
+END FORMULARIO

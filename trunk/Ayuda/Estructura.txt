@@ -1,0 +1,55 @@
+agregar consultas de liquidaciones
+
+
+
+-----------------------------------------------------------------------------
+Introducción	- objetivo del sistema	- Descripción de la funcionalidad	
+
+GENERAL
+
+Formularios de la aplicación	
+Formularios de consulta	
+Funciones básicas de los formularios de consulta	
+Funciones especificas de algunos formularios de consulta	
+Papelera de reciclaje	
+
+Dotaciones xx
+	
+Empleados xx
+
+Seguridad
+Acceso al sistema	
+Súper Usuario	
+
+
+Configuración	xx
+
+Herramientas	xx
+Importar datos externos
+
+Activación del Software	xx
+
+
+SERVICIOS DE EMERGENCIAS
+
+Afiliados xx
+Tipos de afiliados	
+
+Atenciones xx
+Nueva Atención	
+Modificar Atención	
+Listado de atenciones pendientes	
+Listado de atenciones general	
+
+
+Gestión contable	
+Procedimiento de Cobro 1: Cobradores	xx
+Procedimiento de Cobro 2: Empresas	xx
+
+
+Obras Sociales y Servicios de Emergencias xx
+
+
+BOMBEROS
+
+Siniestros xx

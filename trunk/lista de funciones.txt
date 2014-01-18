@@ -1,0 +1,116 @@
+Administracion
+
+
+Afiliado
+	Consulta
+	Alta
+	Baja
+	Modificacion
+
+AreaProtegida
+	Consulta
+	Alta
+	Baja
+	Modificacion
+
+Empleado
+	Consulta
+	Alta
+	Baja
+	Modificacion
+	Asignar Permisos
+
+ObraSocial
+	Consulta
+	Alta
+	Baja
+	Modificacion
+
+Pago
+	Consulta
+	Alta
+	Anular
+	
+ServicioEmergencia
+	Consulta
+	Alta
+	Baja
+	Modificacion
+
+recepcion
+
+Atencion
+	Consulta
+	Alta
+	Baja
+	Modificacion
+Equipo
+	Consulta
+	Alta
+	Baja
+--------------mantenimiento----------------
+Movil
+	Consulta
+	Alta
+	Baja
+	Modificacion
+Cargo
+	Consulta
+	Alta
+	Baja
+	Modificacion
+
+Medicamento
+	Consulta
+	Alta
+	Baja
+	Modificacion
+
+Enfermedad
+	Consulta
+	Alta
+	Baja
+	Modificacion
+Alergia
+	Consulta
+	Alta
+	Baja
+	Modificacion
+TipoTelefono
+	Consulta
+	Alta
+	Baja
+	Modificacion
+
+Ocupacion
+	Consulta
+	Alta
+	Baja
+	Modificacion
+
+Parentezco
+	Consulta
+	Alta
+	Baja
+	Modificacion
+
+Lugar
+	Consulta
+	Alta
+	Baja
+	Modificacion
+Provincia
+	Consulta
+	?Alta
+	?Baja
+	?Modificacion
+Ciudad
+	Consulta
+	Alta
+	Baja
+	Modificacion
+Barrio
+	Consulta
+	Alta
+	Baja
+	Modificacion

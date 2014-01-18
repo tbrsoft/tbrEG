@@ -1,0 +1,47 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Ayuda.chm
+Contents file=Table of Contents.hhc
+Default topic=Introduccion.htm
+Display compile progress=No
+Index file=Index.hhk
+Language=0x2c0a Español (Argentina)
+
+
+[FILES]
+ABM.htm
+Activacion.htm
+Afiliados.htm
+AtencionRaiz.htm
+Bomberos.htm
+Cobro-Cobradores.htm
+Cobro-Empresas.htm
+Cobro-Raiz.htm
+Configuracion.htm
+ConfiguracionInicial.htm
+ConsultaAtenciones.htm
+Consultas.htm
+ConsultaSiniestros.htm
+Dotaciones.htm
+Empleados.htm
+FAQ.htm
+FiltroAtenciones.htm
+FiltroSiniestros.htm
+Formularios.htm
+General.htm
+Herramientas.htm
+InformacionVersion.htm
+Introduccion.htm
+ModificarAtencion.htm
+NuevaAtencion.htm
+ObrasSociales.htm
+OtrosFormularios.htm
+Seguridad.htm
+ServiciosEmergencias.htm
+Siniestro.htm
+TutorialesBomberos.htm
+TutorialesBomberos-RegistrarSiniestro.htm
+TutorialesEmergencias.htm
+
+[INFOTYPES]
+

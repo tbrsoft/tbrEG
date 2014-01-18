@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<codigos>
+   <codigo id="1" nombre="Grado 1">
+        <sintoma id="101" nombre="Incendio"></sintoma>
+	<sintoma id="102" nombre="Rescate"></sintoma>
+	<sintoma id="103" nombre="Accidente"></sintoma>
+	<sintoma id="104" nombre="Inundacion"></sintoma>
+	<sintoma id="105" nombre="Enjambres"></sintoma>
+	<sintoma id="106" nombre="Colaboracion"></sintoma>
+	<sintoma id="107" nombre="Busqueda de Personas"></sintoma>
+        <sintoma id="108" nombre="Forestal"></sintoma>
+	<sintoma id="109" nombre="Baldios"></sintoma>
+	<sintoma id="110" nombre="Pastizales"></sintoma>
+	<sintoma id="111" nombre="Automoviles"></sintoma>
+	<sintoma id="112" nombre="Inmuebles"></sintoma>
+	<sintoma id="113" nombre="Personas"></sintoma>
+	<sintoma id="114" nombre="Animales"></sintoma>
+	<sintoma id="115" nombre="Cadaveres"></sintoma>
+	<sintoma id="116" nombre="Varias"></sintoma>
+   </codigo>
+   <codigo id="2" nombre="Grado 2">
+       <sintoma id="201" nombre="Incendio"></sintoma>
+	<sintoma id="202" nombre="Rescate"></sintoma>
+	<sintoma id="203" nombre="Accidente"></sintoma>
+	<sintoma id="204" nombre="Inundacion"></sintoma>
+	<sintoma id="205" nombre="Enjambres"></sintoma>
+	<sintoma id="206" nombre="Colaboracion"></sintoma>
+	<sintoma id="207" nombre="Busqueda de Personas"></sintoma>
+        <sintoma id="208" nombre="Forestal"></sintoma>
+	<sintoma id="209" nombre="Baldios"></sintoma>
+	<sintoma id="210" nombre="Pastizales"></sintoma>
+	<sintoma id="211" nombre="Automoviles"></sintoma>
+	<sintoma id="212" nombre="Inmuebles"></sintoma>
+	<sintoma id="213" nombre="Personas"></sintoma>
+	<sintoma id="214" nombre="Animales"></sintoma>
+	<sintoma id="215" nombre="Cadaveres"></sintoma>
+	<sintoma id="216" nombre="Varias"></sintoma>
+   </codigo>  
+ <codigo id="3" nombre="Grado 3">
+        <sintoma id="301" nombre="Incendio"></sintoma>
+	<sintoma id="302" nombre="Rescate"></sintoma>
+	<sintoma id="303" nombre="Accidente"></sintoma>
+	<sintoma id="304" nombre="Inundacion"></sintoma>
+	<sintoma id="305" nombre="Enjambres"></sintoma>
+	<sintoma id="306" nombre="Colaboracion"></sintoma>
+	<sintoma id="307" nombre="Busqueda de Personas"></sintoma>
+        <sintoma id="308" nombre="Forestal"></sintoma>
+	<sintoma id="309" nombre="Baldios"></sintoma>
+	<sintoma id="310" nombre="Pastizales"></sintoma>
+	<sintoma id="311" nombre="Automoviles"></sintoma>
+	<sintoma id="312" nombre="Inmuebles"></sintoma>
+	<sintoma id="313" nombre="Personas"></sintoma>
+	<sintoma id="314" nombre="Animales"></sintoma>
+	<sintoma id="315" nombre="Cadaveres"></sintoma>
+	<sintoma id="316" nombre="Varias"></sintoma>
+   </codigo> 
+</codigos>

@@ -1,0 +1,13 @@
+IClient = 22, 22, 519, 468, C
+frmLlamada = 127, 202, 624, 648, C, 44, 44, 541, 490, C
+Application = 66, 66, 563, 512, C
+TelephoneCall = 88, 88, 585, 534, C
+TelephoneCallManager = 132, 132, 637, 578, C
+User = 154, 154, 659, 600, C
+UserManager = 176, 176, 681, 622, C
+Module = 198, 198, 703, 644, C
+DataBaseL = 44, 44, 549, 490, C
+Telephone = 44, 44, 527, 490, C
+TelephoneManager = 66, 66, 549, 512, C
+Contact = 32, 88, 665, 538, C
+ContactsManager = 55, 102, 688, 552, C

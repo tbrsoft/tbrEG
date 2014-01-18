@@ -1,0 +1,309 @@
+
+****SH****49716,65: init_sys
+
+****SH****49717,36: cfg_ready
+
+****SH****49719,16: CLIs_ready
+
+****SH****49720: MDI_ready
+
+****SH****49720,03: SSion_ready
+
+****SH****53918,27: init_sys
+
+****SH****53918,46: cfg_ready
+
+****SH****53919,86: CLIs_ready
+
+****SH****53920,37: MDI_ready
+
+****SH****53920,4: SSion_ready
+
+****SH****54633,01: init_sys
+
+****SH****54693,75: init_sys
+
+****SH****54693,95: cfg_ready
+
+****SH****54695,32: CLIs_ready
+
+****SH****54695,88: MDI_ready
+
+****SH****54695,91: SSion_ready
+
+****SH****54872,22: init_sys
+
+****SH****54872,44: cfg_ready
+
+****SH****54873,87: CLIs_ready
+
+****SH****54874,25: MDI_ready
+
+****SH****54874,29: SSion_ready
+
+****SH****55042,5: init_sys
+
+****SH****55042,66: cfg_ready
+
+****SH****55044,07: CLIs_ready
+
+****SH****55044,46: MDI_ready
+
+****SH****55044,49: SSion_ready
+
+****SH****55486,2: init_sys
+
+****SH****55486,4: cfg_ready
+
+****SH****55487,8: CLIs_ready
+
+****SH****55488,25: MDI_ready
+
+****SH****55488,29: SSion_ready
+
+****SH****56861,31: init_sys
+
+****SH****56861,48: cfg_ready
+
+****SH****56862,92: CLIs_ready
+
+****SH****56863,45: MDI_ready
+
+****SH****56863,54: SSion_ready
+
+****SH****57071,31: init_sys
+
+****SH****57071,55: cfg_ready
+
+****SH****57073: CLIs_ready
+
+****SH****57073,6: MDI_ready
+
+****SH****57073,64: SSion_ready
+
+****SH****57215,21: init_sys
+
+****SH****57215,28: cfg_ready
+
+****SH****57216,7: CLIs_ready
+
+****SH****57217,14: MDI_ready
+
+****SH****57217,18: SSion_ready
+
+****SH****57698,66: init_sys
+
+****SH****57698,77: cfg_ready
+
+****SH****57700,2: CLIs_ready
+
+****SH****57700,66: MDI_ready
+
+****SH****57700,72: SSion_ready
+
+****SH****57757,57: init_sys
+
+****SH****57757,65: cfg_ready
+
+****SH****57758,81: CLIs_ready
+
+****SH****57759,18: MDI_ready
+
+****SH****57759,22: SSion_ready
+
+****SH****57837,75: init_sys
+
+****SH****57837,85: cfg_ready
+
+****SH****57839,26: CLIs_ready
+
+****SH****57839,64: MDI_ready
+
+****SH****57839,69: SSion_ready
+
+****SH****58123,77: init_sys
+
+****SH****58123,94: cfg_ready
+
+****SH****58125,26: CLIs_ready
+
+****SH****58144,29: MDI_ready
+
+****SH****58144,34: SSion_ready
+
+****SH****74014,29: init_sys
+
+****SH****74016,1: cfg_ready
+
+****SH****74020,14: CLIs_ready
+
+****SH****74029,83: MDI_ready
+
+****SH****74029,87: SSion_ready
+
+****SH****69408,2: init_sys
+
+****SH****69408,7: cfg_ready
+
+****SH****69410,33: CLIs_ready
+
+****SH****69417,4: MDI_ready
+
+****SH****69417,48: SSion_ready
+
+****SH****83032,32: init_sys
+
+****SH****83033,31: cfg_ready
+
+****SH****83035,4: CLIs_ready
+
+****SH****83038,41: MDI_ready
+
+****SH****83038,46: SSion_ready
+
+****SH****84297,8: init_sys
+
+****SH****84297,98: cfg_ready
+
+****SH****84299,53: CLIs_ready
+
+****SH****84301,83: MDI_ready
+
+****SH****84301,86: SSion_ready
+
+****SH****84381,1: init_sys
+
+****SH****84381,2: cfg_ready
+
+****SH****84382,34: CLIs_ready
+
+****SH****84384,54: MDI_ready
+
+****SH****84384,55: SSion_ready
+
+****SH****84523,05: init_sys
+
+****SH****84523,15: cfg_ready
+
+****SH****84524,63: CLIs_ready
+
+****SH****84526,72: MDI_ready
+
+****SH****84526,75: SSion_ready
+
+****SH****84686,89: init_sys
+
+****SH****84687: cfg_ready
+
+****SH****84688,45: CLIs_ready
+
+****SH****84690,8: MDI_ready
+
+****SH****84697,59: SSion_ready
+
+****SH****84948,63: init_sys
+
+****SH****84948,8: cfg_ready
+
+****SH****84950,49: CLIs_ready
+
+****SH****84953,62: MDI_ready
+
+****SH****84953,66: SSion_ready
+
+****SH****85081,63: init_sys
+
+****SH****85081,72: cfg_ready
+
+****SH****85083,14: CLIs_ready
+
+****SH****85086,15: MDI_ready
+
+****SH****85086,19: SSion_ready
+
+****SH****85136,42: init_sys
+
+****SH****85136,53: cfg_ready
+
+****SH****85137,7: CLIs_ready
+
+****SH****85140,56: MDI_ready
+
+****SH****85140,6: SSion_ready
+
+****SH****85304,28: init_sys
+
+****SH****85304,5: cfg_ready
+
+****SH****85306: CLIs_ready
+
+****SH****85308,72: MDI_ready
+
+****SH****85308,76: SSion_ready
+
+****SH****85590,98: init_sys
+
+****SH****85591,2: cfg_ready
+
+****SH****85592,69: CLIs_ready
+
+****SH****85595,3: MDI_ready
+
+****SH****85595,35: SSion_ready
+
+****SH****53817,64: init_sys
+
+****SH****53818,02: cfg_ready
+
+****SH****53819,63: CLIs_ready
+
+****SH****53822,83: MDI_ready
+
+****SH****53822,93: SSion_ready
+
+****SH****54686,82: init_sys
+
+****SH****54686,9: cfg_ready
+
+****SH****54689,16: CLIs_ready
+
+****SH****54691,43: MDI_ready
+
+****SH****54691,46: SSion_ready
+
+****SH****54734,11: init_sys
+
+****SH****54734,22: cfg_ready
+
+****SH****54735,33: CLIs_ready
+
+****SH****54737,71: MDI_ready
+
+****SH****54737,74: SSion_ready
+
+****SH****56550,22: init_sys
+
+****SH****56550,47: cfg_ready
+
+****SH****56551,95: CLIs_ready
+
+****SH****56554,43: MDI_ready
+
+****SH****56554,45: SSion_ready
+
+****SH****56955,93: init_sys
+
+****SH****56956,14: cfg_ready
+
+****SH****56957,6: CLIs_ready
+
+****SH****56959,69: MDI_ready
+
+****SH****56959,71: SSion_ready
+
+****SH****56989,82: ****************
+****************
+DIJO:
+Se estaba grabando la atencion
+****************
+****************

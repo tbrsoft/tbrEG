@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<Title>FAQ</Title>
+</HEAD>
+<BODY>
+    <h3>
+        Preguntas Frecuentes</h3>
+    <strong>1. Cual es la contraseña para ingresar al programa?</strong>
+    <br />
+    <br />
+    La contraseña es <strong>1</strong>. Dentro del programa puede modificar la misma
+    desde el menú Archivo -&gt; Cambiar Contraseña.
+    <br />
+    <br />
+    <strong>2. Como hago para que el programa funcione en red?</strong>
+    <br />
+    <br />
+    Para que el sistema funcione en modo red se requiere una serie de configuraciones
+    adicionales. Primero debe seleccionarse la computadora que cumplirá el papel de
+    servidor. La maquina seleccionada deberá estar encendida para que el resto de las
+    estaciones puedan utilizar el software. La seguridad implementada en el sistema
+    permite elegir cualquier equipo como servidor, ya que las funciones son accesibles
+    por usuario. Esto significa que se puede elegir como servidor una estación de trabajo
+    de un despachador, ya que este equipo es el que esta encendido mas tiempo, y sin
+    embargo no habrá problemas de seguridad.
+    <br />
+    <br />
+    El orden de instalación no es relevante, se pueden instalar todos los equipos a
+    la vez. Una vez instalado el software en todos los equipos, se deben configurar
+    las estaciones de trabajo para que se conecten con el servidor.
+    <br />
+    <br />
+    En la computadora seleccionada como servidor, es necesario compartir la carpeta
+    donde se encuentra la base de datos del programa. Para compartir dicha carpeta,
+    puede seguir los siguientes pasos:
+    <br />
+    <ul>
+        <li>a. Ubique la carpeta en la que se instaló el software. Si no cambió la ruta en el
+            instalador la carpeta debería ser : <strong>“C:\Archivos de Programa \ tbrEmergencyGroup”.
+            </strong></li>
+        <li>b. Haga clic derecho sobre la carpeta y seleccione el menú “Compartir y Seguridad…”.
+        </li>
+        <li>c. Dentro de la ventana que se abrió seleccione la pestaña “Compartir”. </li>
+        <li>d. Dentro del recuadro “Uso compartido y seguridad en red” active la casilla “Compartir
+            esta carpeta en la red”. Puede aparecer un cartel de advertencia, seleccione Aceptar.
+            En la casilla de texto figura el nombre de la carpeta compartida, recuerdelo porque
+            luego debera ubicar esta carpeta a traves de la red. </li>
+        <li>e. Active también la casilla “Permitir que los otros usuario cambien mis archivos”.
+            Esto es muy importante porque de otra manera no se guardarían los cambios a la base
+            de datos desde los otros equipos. </li>
+        <li>f. Elija Aceptar. </li>
+    </ul>
+    <p>
+        Para configurar las estaciones clientes necesitara conocer la dirección IP del servidor.
+        La misma se puede obtener de diferentes formas dependiendo de la configuración de
+        la computadora servidor. En general, la dirección se puede obtener haciendo doble
+        clic en el icono “Conexión de área local”, que se encuentra en la esquina inferior
+        derecha de la pantalla, junto al reloj. Una vez dentro de las propiedades seleccione
+        la pestaña “Soporte” en la cual se encuentra la dirección IP necesaria. Aquí terminan
+        las configuraciones necesarias en el servidor.
+    </p>
+    <p>
+        A continuación, en cada una de las estaciones de trabajo restantes, siga los siguientes
+        pasos:
+    </p>
+    <ul>
+        <li>a. Ejecute el software “tbrEmergencyGroup”. </li>
+        <li>b. Inicie sesión y en el menú seleccione Configuración. </li>
+        <li>c. En la sección Red, seleccione Modo Cliente. Luego ingrese la dirección IP del
+            servidor obtenida anteriormente y opcionalmente el nombre del equipo. El nombre
+            ingresado figurará en el servidor en el menú Estado de la Red. </li>
+        <li>d. Luego en la sección Base de Datos se selecciona la ruta a la base de datos, que
+            deberá ser una referencia a la carpeta compartida en el equipo Servidor. Para ello
+            ingrese a la opción “Mis sitios de red”. Ubique el grupo de trabajo donde se encuentra
+            el servidor. </li>
+        <li>e. Ubique el archivo database.mdb dentro de la carpeta que compartió en los pasos
+            anteriores en el servidor. </li>
+        <li>f. Acepte el cuadro de dialogo “Configuración” y reinicie el programa. Una vez finalizados
+            estos pasos en todas las estaciones el sistema esta listo para su uso. </li>
+    </ul>
+    <p>
+        <strong>3. Que significa la señal roja intermitente que se encuentra en la parte superior
+            derecha? </strong>
+    </p>
+    <p>
+        Esta señal significa que hay atenciones pendientes. Para que desaparezca la señal
+        se deben completar los datos y finalizar todas las atenciones o emergencias pendientes.
+        Se puede desactivar esta señal ingresando a la configuración.
+    </p>
+
+
+</BODY>
+</HTML>

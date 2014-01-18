@@ -1,0 +1,12 @@
+ListViewConsulta = 66, 66, 610, 456, C, 44, 44, 588, 434, C
+ppListViewConsulta = 88, 88, 632, 478, C, 39, 78, 583, 468, C
+LVCEncabezado = 132, 132, 676, 522, C
+LVCEncabezadoManager = 83, 130, 627, 520, Z
+Combo = 88, 88, 632, 478, C, 0, 0, 544, 390, C
+Modulo = 46, 34, 545, 480, C
+TreeViewConsulta = 89, 109, 567, 555, C, 198, 198, 676, 644, C
+TVNode = 132, 132, 610, 578, C
+TVNodeManager = 88, 88, 566, 534, C
+ppTvwNodos = 0, 0, 478, 446, C, 156, 71, 634, 517, C
+ppTvwGeneral = 44, 44, 522, 490, C, 0, 0, 478, 446, C
+CommonDialog = 0, 0, 0, 0, C

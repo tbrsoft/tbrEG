@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Introduccion">
+		<param name="Local" value="Introduccion.htm">
+		<param name="ImageNumber" value="17">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Configuraci&oacute;n Inicial">
+		<param name="Local" value="ConfiguracionInicial.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Activacion del Software">
+		<param name="Local" value="Activacion.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="General">
+		<param name="Local" value="General.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Empleados">
+			<param name="Local" value="Empleados.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Seguridad">
+			<param name="Local" value="Seguridad.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Configuracion">
+			<param name="Local" value="Configuracion.htm">
+			<param name="URL" value="Configuracion.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Herramientas">
+			<param name="Local" value="Herramientas.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Formularios">
+			<param name="Local" value="Formularios.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ABM (Altas, Bajas y Modificaciones.)">
+				<param name="Local" value="ABM.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Consultas">
+				<param name="Local" value="Consultas.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Dotaciones">
+			<param name="Local" value="Dotaciones.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Servicios de Emergencias">
+		<param name="Local" value="ServiciosEmergencias.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Afiliados">
+			<param name="Local" value="Afiliados.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Atenciones">
+			<param name="Local" value="AtencionRaiz.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Nueva Atencion">
+				<param name="Local" value="NuevaAtencion.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Modificaciones Atencion">
+				<param name="Local" value="ModificarAtencion.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Listados de Atenciones">
+				<param name="Local" value="FiltroAtenciones.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Obras Sociales - Servicios de Emergencias">
+			<param name="Local" value="ObrasSociales.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Gestion Contable">
+			<param name="Local" value="Cobro-Raiz.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Modo 1: Cobradores">
+				<param name="Local" value="Cobro-Cobradores.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Modo 2: Empresas">
+				<param name="Local" value="Cobro-Empresas.htm">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Cuerpo de Bomberos">
+		<param name="Local" value="Bomberos.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Siniestro">
+			<param name="Local" value="Siniestro.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Consulta de Siniestros">
+			<param name="Local" value="ConsultaSiniestros.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Filtros de Siniestros">
+			<param name="Local" value="FiltroSiniestros.htm">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

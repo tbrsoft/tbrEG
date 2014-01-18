@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<codigos>
+   <codigo id="1" nombre="Rojo">
+	<sintoma id="101" nombre="Paro Cardiorespiratorio."></sintoma>
+	<sintoma id="102" nombre="Se desconoce"></sintoma>
+	<sintoma id="103" nombre="Perdida de conocimiento"></sintoma>
+	<sintoma id="104" nombre="Confusion, obnubilacion"></sintoma>
+	<sintoma id="105" nombre="Perdida de fuerzas en..."></sintoma>
+	<sintoma id="106" nombre="Dificultad para hablar"></sintoma>
+	<sintoma id="107" nombre="Convulsiones"></sintoma>
+	<sintoma id="108" nombre="Precordialgia o dolor de pecho"></sintoma>
+	<sintoma id="109" nombre="Cianosis"></sintoma>
+	<sintoma id="110" nombre="Sudoracion"></sintoma>
+	<sintoma id="111" nombre="Politraumatismo"></sintoma>
+	<sintoma id="112" nombre="Dificultad para respirar. Disnea"></sintoma>
+	<sintoma id="113" nombre="Herida por arma blanca"></sintoma>
+	<sintoma id="114" nombre="Herida por arma de fuego"></sintoma>
+	<sintoma id="115" nombre="Victima de caida desde altura"></sintoma>
+	<sintoma id="116" nombre="Accidente vehicular"></sintoma>
+	<sintoma id="117" nombre="Electrocucion"></sintoma>
+	<sintoma id="118" nombre="Inmersion/Sumersion"></sintoma>
+	<sintoma id="119" nombre="Accidente industrial"></sintoma>
+	<sintoma id="120" nombre="Derrumbe"></sintoma>
+	<sintoma id="121" nombre="Gases toxicos"></sintoma>
+	<sintoma id="122" nombre="Ahorcamiento"></sintoma>
+	<sintoma id="123" nombre="Hemorragia por orificios"></sintoma>
+	<sintoma id="124" nombre="Victima multiple"></sintoma>
+	<sintoma id="125" nombre="Catastrofe por..."></sintoma>
+	<sintoma id="126" nombre="Via publica"></sintoma>
+	<sintoma id="127" nombre="Intento de suicidio"></sintoma>
+	<sintoma id="201" nombre="Exitacion"></sintoma>
+   </codigo>
+   <codigo id="2" nombre="Amarillo">
+	<sintoma id="202" nombre="Palpitaciones"></sintoma>
+	<sintoma id="203" nombre="Palidez"></sintoma>
+	<sintoma id="204" nombre="Hipotension"></sintoma>
+	<sintoma id="205" nombre="Hipertension"></sintoma>
+	<sintoma id="206" nombre="Dolor Toracico"></sintoma>
+	<sintoma id="207" nombre="Dolor Abdominal"></sintoma>
+	<sintoma id="208" nombre="Ingestion de..."></sintoma>
+	<sintoma id="209" nombre="Herida cortante en..."></sintoma>
+	<sintoma id="210" nombre="Traumatismo de craneo"></sintoma>
+	<sintoma id="211" nombre="Traumatismo de miembro..."></sintoma>
+	<sintoma id="212" nombre="Traumatismo de torax"></sintoma>
+	<sintoma id="213" nombre="Traumatismo de abdomen"></sintoma>
+	<sintoma id="214" nombre="Traumatismo dorsolumbar"></sintoma>
+	<sintoma id="215" nombre="Traumatismo facial"></sintoma>
+	<sintoma id="216" nombre="Traumatismo perineal"></sintoma>
+	<sintoma id="217" nombre="Quemaduras"></sintoma>
+	<sintoma id="218" nombre="Incontinencia de esfinteres"></sintoma>
+	<sintoma id="219" nombre="Trastorno de conducta"></sintoma>
+	<sintoma id="220" nombre="Crisis de llanto en niños"></sintoma>
+	<sintoma id="221" nombre="Alteraciones oculares y de la vision"></sintoma>
+	<sintoma id="222" nombre="Perdida de conocimiento recuperada transitoria"></sintoma>
+	<sintoma id="223" nombre="Taquicardia"></sintoma>
+	<sintoma id="224" nombre="Bradicardia"></sintoma>
+	<sintoma id="225" nombre="Arritmia"></sintoma>
+	<sintoma id="226" nombre="Paciente violento"></sintoma>
+	<sintoma id="227" nombre="Trabajo de parto"></sintoma>
+	<sintoma id="228" nombre="Cuerpo extraño en..."></sintoma>
+	<sintoma id="229" nombre="Problemas vinculados a la diabetes"></sintoma>
+   </codigo>
+   <codigo id="3" nombre="Verde">
+	<sintoma id="301" nombre="Mareos"></sintoma>
+	<sintoma id="302" nombre="Temblor"></sintoma>
+	<sintoma id="303" nombre="Cefalea"></sintoma>
+	<sintoma id="304" nombre="Nauseas"></sintoma>
+	<sintoma id="305" nombre="Vomitos"></sintoma>
+	<sintoma id="306" nombre="Lumbalgia"></sintoma>
+	<sintoma id="307" nombre="Dificultad para orinar. Anuria"></sintoma>
+	<sintoma id="308" nombre="Fiebre"></sintoma>
+	<sintoma id="309" nombre="Malestar general"></sintoma>
+	<sintoma id="310" nombre="Malestar inespecifico"></sintoma>
+	<sintoma id="311" nombre="Picadura de..."></sintoma>
+	<sintoma id="312" nombre="Mordedura de..."></sintoma>
+	<sintoma id="313" nombre="Tos"></sintoma>
+	<sintoma id="314" nombre="Espectoracion"></sintoma>
+	<sintoma id="315" nombre="Debilidad, Astenia, Decaimiento"></sintoma>
+	<sintoma id="316" nombre="Sintomas urinarios"></sintoma>
+	<sintoma id="317" nombre="Prurito"></sintoma>
+	<sintoma id="318" nombre="Escalofrios"></sintoma>
+	<sintoma id="319" nombre="Reaccion cutanea"></sintoma>
+	<sintoma id="320" nombre="Alteracion del gusto u olfato"></sintoma>
+	<sintoma id="321" nombre="Alteracion de la audicion"></sintoma>
+	<sintoma id="322" nombre="Parestesias"></sintoma>
+	<sintoma id="323" nombre="Diarrea"></sintoma>
+	<sintoma id="324" nombre="Constipacion"></sintoma>
+	<sintoma id="325" nombre="Calambres"></sintoma>
+	<sintoma id="326" nombre="Edema en..."></sintoma>
+	<sintoma id="327" nombre="Dolor en..."></sintoma>
+  </codigo> 
+<codigo id="6" nombre="Celeste">
+	<sintoma id="601" nombre="Mareos"></sintoma>
+	<sintoma id="602" nombre="Temblor"></sintoma>
+	<sintoma id="603" nombre="Cefalea"></sintoma>
+	<sintoma id="604" nombre="Nauseas"></sintoma>
+	<sintoma id="605" nombre="Vomitos"></sintoma>
+	<sintoma id="606" nombre="Lumbalgia"></sintoma>
+	<sintoma id="607" nombre="Dificultad para orinar. Anuria"></sintoma>
+	<sintoma id="608" nombre="Fiebre"></sintoma>
+	<sintoma id="609" nombre="Malestar general"></sintoma>
+	<sintoma id="610" nombre="Malestar inespecifico"></sintoma>
+	<sintoma id="611" nombre="Picadura de..."></sintoma>
+	<sintoma id="612" nombre="Mordedura de..."></sintoma>
+	<sintoma id="613" nombre="Tos"></sintoma>
+	<sintoma id="614" nombre="Espectoracion"></sintoma>
+	<sintoma id="615" nombre="Debilidad, Astenia, Decaimiento"></sintoma>
+	<sintoma id="616" nombre="Sintomas urinarios"></sintoma>
+	<sintoma id="617" nombre="Prurito"></sintoma>
+	<sintoma id="618" nombre="Escalofrios"></sintoma>
+	<sintoma id="619" nombre="Reaccion cutanea"></sintoma>
+	<sintoma id="620" nombre="Alteracion del gusto u olfato"></sintoma>
+	<sintoma id="621" nombre="Alteracion de la audicion"></sintoma>
+	<sintoma id="622" nombre="Parestesias"></sintoma>
+	<sintoma id="623" nombre="Diarrea"></sintoma>
+	<sintoma id="624" nombre="Constipacion"></sintoma>
+	<sintoma id="625" nombre="Calambres"></sintoma>
+	<sintoma id="626" nombre="Edema en..."></sintoma>
+	<sintoma id="627" nombre="Dolor en..."></sintoma>
+  </codigo> 
+  <codigo id="4" nombre="Azul - Traslado">
+	<sintoma id="401" nombre="Comun"></sintoma>
+	<sintoma id="402" nombre="Con Medico"></sintoma>
+	<sintoma id="403" nombre="Utim"></sintoma>
+	<sintoma id="404" nombre="Ida y Vuelta"></sintoma>
+   </codigo>
+   <codigo id="5" nombre="Enfermeria">
+	<sintoma id="501" nombre="Enfermeria"></sintoma>
+   </codigo>
+   <codigo id="911" nombre="Emergencia">
+	<sintoma id="911" nombre="Emergencia en via publica"></sintoma>
+   </codigo>
+</codigos>

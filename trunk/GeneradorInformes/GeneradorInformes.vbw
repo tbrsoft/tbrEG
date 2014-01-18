@@ -1,0 +1,9 @@
+frmPrincipal = 66, 66, 547, 512, Z, 25, 12, 506, 458, C
+ModuloAux = 44, 44, 525, 490, C
+Listado = 110, 110, 591, 556, C
+LParameter = 0, 0, 0, 0, C
+LParameterManager = 220, 220, 701, 666, C
+frmListadoGenerico = 66, 66, 544, 512, , 132, 132, 613, 578, C
+ColeccionGenerica = 176, 176, 657, 622, C
+ObjetoGenerico = 154, 154, 635, 600, C
+frmParametro = 198, 198, 679, 644, C, 176, 176, 657, 622, C

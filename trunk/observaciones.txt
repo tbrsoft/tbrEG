@@ -1,0 +1,19 @@
+todos los id son de solo lectura para la capa de aplicacion, pero se pueden setear en la capa de negocio
+
+para modificar las colecciones, como lo telefonos o los cargos en empleado, por ej...
+llamar al metodo BeginEdit, esto crea una copia de la coleccion (en memoria)
+para guardar los cambios llamar a la funcion correpondiente del dueño de la coleccion, el empleado en este caso
+en caso del boton cancelar no olvidarse de llamar a la funcion cancelChanges
+
+para evitarse todo lo anterior basta con setear a nothing la coleccion,
+ siempre q esta se recargue cuando se pida la propiedad, baja un poco el rendimiento,
+ pero facilita mucho las cosas.
+
+
+la historia clinica no incluye las atenciones
+
+en todas las colecciones, cuando se agrega un elemento dos veces se lo ignora y no da error
+
+cambie todo lo de los telefonos, elimine las tablas intermedias etc
+
+no me gusta para nada el planteo de atencion manager, hay q mejorar mucho el tema de los filtros y de cargar de la bd

@@ -1,0 +1,3 @@
+figuras(etc...)
+alineacion del texto
+color del texto

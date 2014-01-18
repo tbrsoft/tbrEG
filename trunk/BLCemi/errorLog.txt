@@ -1,0 +1,7 @@
+Fecha - Hora: 17/03/2010 10:36:52 a.m.
+Software: tbrEmergencyGroup
+Version:  2. 0. 9
+Version BD:2.0.0
+Clase:Inicio
+Propiedad o Funcion: Inicio
+Error: 17/03/2010 10:36:52 a.m.

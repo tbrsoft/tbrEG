@@ -1,0 +1,1042 @@
+03/03/2009 03:00:29 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Empleado (id, Apellido, FechaNacimiento, Login, Nombre, NroDoc, Pass, TipoDoc, Permisos, EsSuperUsuario, mp, eliminado, idDireccion) VALUES (@id, @Apellido, @FechaNacimiento, @Login, @Nombre, @NroDoc, @Pass, @TipoDoc, @Permisos, @EsSuperUsuario, @mp, @eliminado, @idDireccion)
+INSERT INTO CargoXEmpleado (idCargo, idEmpleado) VALUES (@idCargo, @idEmpleado)
+03/03/2009 03:00:29 p.m. Se termino la transaccion
+03/03/2009 03:01:02 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Empleado (id, Apellido, FechaNacimiento, Login, Nombre, NroDoc, Pass, TipoDoc, Permisos, EsSuperUsuario, mp, eliminado, idDireccion) VALUES (@id, @Apellido, @FechaNacimiento, @Login, @Nombre, @NroDoc, @Pass, @TipoDoc, @Permisos, @EsSuperUsuario, @mp, @eliminado, @idDireccion)
+INSERT INTO CargoXEmpleado (idCargo, idEmpleado) VALUES (@idCargo, @idEmpleado)
+03/03/2009 03:01:02 p.m. Se termino la transaccion
+03/03/2009 03:01:09 p.m. Se inicio una transaccion
+INSERT INTO Equipo (id, idMovil, eliminado) VALUES (@id, @idMovil, @eliminado)
+INSERT INTO EmpleadoXEquipo (idEmpleado, idEquipo) VALUES (@idEmpleado, @idEquipo)
+03/03/2009 03:01:09 p.m. Se termino la transaccion
+03/03/2009 03:01:17 p.m. Se inicio una transaccion
+INSERT INTO Equipo (id, idMovil, eliminado) VALUES (@id, @idMovil, @eliminado)
+INSERT INTO EmpleadoXEquipo (idEmpleado, idEquipo) VALUES (@idEmpleado, @idEquipo)
+03/03/2009 03:01:17 p.m. Se termino la transaccion
+03/03/2009 03:01:28 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idServicioEmergencia= @idServicioEmergencia, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+03/03/2009 03:01:28 p.m. Se termino la transaccion
+03/03/2009 03:01:28 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+03/03/2009 03:01:28 p.m. Se termino la transaccion
+03/03/2009 03:01:41 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idServicioEmergencia= @idServicioEmergencia, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+03/03/2009 03:01:41 p.m. Se termino la transaccion
+03/03/2009 03:01:41 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+03/03/2009 03:01:41 p.m. Se termino la transaccion
+03/03/2009 03:02:08 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+03/03/2009 03:02:08 p.m. Se termino la transaccion
+03/03/2009 03:02:08 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+03/03/2009 03:02:08 p.m. Se termino la transaccion
+06/03/2009 09:10:22 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Atencion (Id, NroIncidente, idDespachador, Fecha, HoraLlamada, QTH, VL, idSintoma, telefonoAuxiliar, idDireccion, Operador, Diagnostico, Observaciones, Estado, copago, abonado, condIva, servicio, montoiva) VALUES (@Id, @NroIncidente, @idDespachador, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @telefonoAuxiliar, @idDireccion, @Operador, @Diagnostico, @Observaciones, @Estado, @copago, @abonado, @condIva, @servicio, @montoiva)
+06/03/2009 09:10:22 p.m. Se termino la transaccion
+06/03/2009 09:35:25 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+06/03/2009 09:35:25 p.m. Se termino la transaccion
+06/03/2009 09:35:25 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+06/03/2009 09:35:25 p.m. Se termino la transaccion
+06/03/2009 09:38:40 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+06/03/2009 09:38:40 p.m. Se termino la transaccion
+06/03/2009 09:38:40 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+06/03/2009 09:38:40 p.m. Se termino la transaccion
+08/03/2009 04:50:48 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO ServicioEmergencia (id, Nombre, idDireccion, formula, Iva) VALUES (@id, @Nombre, @idDireccion, @formula, @Iva)
+INSERT INTO CodigoXEmpresa (idCodigo, idEmpresa, coseguro, servicio, tipoEmpresa, idtipocodigo) VALUES (@idCodigo, @idEmpresa, @coseguro, @servicio, @tipoEmpresa, @idtipocodigo)
+08/03/2009 04:50:48 p.m. Se termino la transaccion
+08/03/2009 04:51:28 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO ObraSocial (Coseguro, idDireccion, id, Nombre, Observaciones, idServicioEmergencia, formula, Iva) VALUES (@Coseguro, @idDireccion, @id, @Nombre, @Observaciones, @idServicioEmergencia, @formula, @Iva)
+INSERT INTO CodigoXEmpresa (idCodigo, idEmpresa, coseguro, servicio, tipoEmpresa, idtipocodigo) VALUES (@idCodigo, @idEmpresa, @coseguro, @servicio, @tipoEmpresa, @idtipocodigo)
+08/03/2009 04:51:28 p.m. Se termino la transaccion
+08/03/2009 04:51:44 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO AfiliadoExterno (Apellido, FechaNacimiento, id, Nombre, NroDoc, idObraSocial, Observaciones, Sexo, TipoDoc, TopeAtenciones, NroAfiliado, idDireccion, esEdad) VALUES (@Apellido, @FechaNacimiento, @id, @Nombre, @NroDoc, @idObraSocial, @Observaciones, @Sexo, @TipoDoc, @TopeAtenciones, @NroAfiliado, @idDireccion, @esEdad)
+INSERT INTO AfiliadoExternoXServicioEmergencia (idAfiliadoExterno, idServicioEmergencia) VALUES (@idAfiliadoExterno, @idServicioEmergencia)
+08/03/2009 04:51:44 p.m. Se termino la transaccion
+20/03/2009 11:03:02 a.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Atencion (Id, NroIncidente, idDespachador, Fecha, HoraLlamada, QTH, VL, idSintoma, telefonoAuxiliar, idDireccion, Operador, Diagnostico, Observaciones, Estado, copago, abonado, condIva, servicio, montoiva) VALUES (@Id, @NroIncidente, @idDespachador, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @telefonoAuxiliar, @idDireccion, @Operador, @Diagnostico, @Observaciones, @Estado, @copago, @abonado, @condIva, @servicio, @montoiva)
+20/03/2009 11:03:02 a.m. Se termino la transaccion
+20/03/2009 11:40:00 a.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Atencion (Id, NroIncidente, idDespachador, Fecha, HoraLlamada, QTH, VL, idSintoma, telefonoAuxiliar, idDireccion, Operador, Diagnostico, Observaciones, Estado, copago, abonado, condIva, servicio, montoiva) VALUES (@Id, @NroIncidente, @idDespachador, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @telefonoAuxiliar, @idDireccion, @Operador, @Diagnostico, @Observaciones, @Estado, @copago, @abonado, @condIva, @servicio, @montoiva)
+20/03/2009 11:40:00 a.m. Se termino la transaccion
+20/03/2009 11:40:07 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+20/03/2009 11:40:07 a.m. Se termino la transaccion
+20/03/2009 11:40:07 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+20/03/2009 11:40:07 a.m. Se termino la transaccion
+20/03/2009 11:40:09 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+20/03/2009 11:40:09 a.m. Se termino la transaccion
+20/03/2009 11:40:09 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+20/03/2009 11:40:09 a.m. Se termino la transaccion
+23/03/2009 12:54:02 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Empleado (id, Apellido, FechaNacimiento, Login, Nombre, NroDoc, Pass, TipoDoc, Permisos, EsSuperUsuario, mp, eliminado, idDireccion) VALUES (@id, @Apellido, @FechaNacimiento, @Login, @Nombre, @NroDoc, @Pass, @TipoDoc, @Permisos, @EsSuperUsuario, @mp, @eliminado, @idDireccion)
+INSERT INTO CargoXEmpleado (idCargo, idEmpleado) VALUES (@idCargo, @idEmpleado)
+23/03/2009 12:54:02 p.m. Se termino la transaccion
+23/03/2009 01:40:34 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO ServicioEmergencia (id, Nombre, idDireccion, formula, Iva) VALUES (@id, @Nombre, @idDireccion, @formula, @Iva)
+INSERT INTO CodigoXEmpresa (idCodigo, idEmpresa, coseguro, servicio, tipoEmpresa) VALUES (@idCodigo, @idEmpresa, @coseguro, @servicio, @tipoEmpresa)
+23/03/2009 01:40:34 p.m. Se termino la transaccion
+06/04/2009 01:17:22 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Atencion (Id, NroIncidente, idDespachador, Fecha, HoraLlamada, QTH, VL, idSintoma, telefonoAuxiliar, idDireccion, Operador, Diagnostico, Observaciones, Estado, copago, abonado, condIva, servicio, montoiva) VALUES (@Id, @NroIncidente, @idDespachador, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @telefonoAuxiliar, @idDireccion, @Operador, @Diagnostico, @Observaciones, @Estado, @copago, @abonado, @condIva, @servicio, @montoiva)
+06/04/2009 01:17:22 p.m. Se termino la transaccion
+06/04/2009 01:20:34 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+06/04/2009 01:20:34 p.m. Se termino la transaccion
+06/04/2009 01:20:34 p.m. Se inicio una transaccion
+06/04/2009 01:20:34 p.m. Se termino la transaccion
+12/04/2009 03:53:38 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO ServicioEmergencia (id, Nombre, idDireccion, formula, Iva) VALUES (@id, @Nombre, @idDireccion, @formula, @Iva)
+INSERT INTO CodigoXEmpresa (idCodigo, idEmpresa, coseguro, servicio, tipoEmpresa, idtipocodigo) VALUES (@idCodigo, @idEmpresa, @coseguro, @servicio, @tipoEmpresa, @idtipocodigo)
+12/04/2009 03:53:38 p.m. Se termino la transaccion
+12/04/2009 03:54:08 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO ObraSocial (Coseguro, idDireccion, id, Nombre, Observaciones, idServicioEmergencia, formula, Iva) VALUES (@Coseguro, @idDireccion, @id, @Nombre, @Observaciones, @idServicioEmergencia, @formula, @Iva)
+INSERT INTO CodigoXEmpresa (idCodigo, idEmpresa, coseguro, servicio, tipoEmpresa, idtipocodigo) VALUES (@idCodigo, @idEmpresa, @coseguro, @servicio, @tipoEmpresa, @idtipocodigo)
+12/04/2009 03:54:08 p.m. Se termino la transaccion
+12/04/2009 03:57:31 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO AfiliadoExterno (Apellido, FechaNacimiento, id, Nombre, NroDoc, idObraSocial, Observaciones, Sexo, TipoDoc, TopeAtenciones, NroAfiliado, idDireccion, esEdad) VALUES (@Apellido, @FechaNacimiento, @id, @Nombre, @NroDoc, @idObraSocial, @Observaciones, @Sexo, @TipoDoc, @TopeAtenciones, @NroAfiliado, @idDireccion, @esEdad)
+INSERT INTO AfiliadoExternoXObraSocial (idAfiliadoExterno, idObraSocial) VALUES (@idAfiliadoExterno, @idObraSocial)
+12/04/2009 03:57:31 p.m. Se termino la transaccion
+12/04/2009 06:13:50 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+12/04/2009 06:13:50 p.m. Se termino la transaccion
+12/04/2009 06:13:50 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+12/04/2009 06:13:50 p.m. Se termino la transaccion
+12/04/2009 07:23:39 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+12/04/2009 07:23:39 p.m. Se termino la transaccion
+12/04/2009 07:23:39 p.m. Se inicio una transaccion
+12/04/2009 07:23:39 p.m. Se termino la transaccion
+12/04/2009 07:28:34 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+12/04/2009 07:28:34 p.m. Se termino la transaccion
+12/04/2009 07:28:34 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+12/04/2009 07:28:34 p.m. Se termino la transaccion
+15/04/2009 04:19:43 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Atencion (Id, NroIncidente, NroIncidenteInterno, idDespachador, Fecha, HoraLlamada, QTH, VL, idSintoma, telefonoAuxiliar, idDireccion, Operador, Diagnostico, Observaciones, Estado, copago, abonado, condIva, servicio, montoiva) VALUES (@Id, @NroIncidente, @NroIncidenteInterno, @idDespachador, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @telefonoAuxiliar, @idDireccion, @Operador, @Diagnostico, @Observaciones, @Estado, @copago, @abonado, @condIva, @servicio, @montoiva)
+15/04/2009 04:19:43 p.m. Se termino la transaccion
+24/04/2009 12:13:09 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO ServicioEmergencia (id, Nombre, idDireccion, formula, Iva) VALUES (@id, @Nombre, @idDireccion, @formula, @Iva)
+INSERT INTO CodigoXEmpresa (idCodigo, idEmpresa, coseguro, servicio, tipoEmpresa) VALUES (@idCodigo, @idEmpresa, @coseguro, @servicio, @tipoEmpresa)
+24/04/2009 12:13:09 p.m. Se termino la transaccion
+24/04/2009 12:13:40 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO ObraSocial (Coseguro, idDireccion, id, Nombre, Observaciones, idServicioEmergencia, formula, Iva) VALUES (@Coseguro, @idDireccion, @id, @Nombre, @Observaciones, @idServicioEmergencia, @formula, @Iva)
+INSERT INTO CodigoXEmpresa (idCodigo, idEmpresa, coseguro, servicio, tipoEmpresa) VALUES (@idCodigo, @idEmpresa, @coseguro, @servicio, @tipoEmpresa)
+24/04/2009 12:13:40 p.m. Se termino la transaccion
+24/04/2009 12:15:43 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO AfiliadoExterno (Apellido, FechaNacimiento, id, Nombre, NroDoc, idObraSocial, Observaciones, Sexo, TipoDoc, TopeAtenciones, NroAfiliado, idDireccion, esEdad) VALUES (@Apellido, @FechaNacimiento, @id, @Nombre, @NroDoc, @idObraSocial, @Observaciones, @Sexo, @TipoDoc, @TopeAtenciones, @NroAfiliado, @idDireccion, @esEdad)
+INSERT INTO AfiliadoExternoXObraSocial (idAfiliadoExterno, idObraSocial) VALUES (@idAfiliadoExterno, @idObraSocial)
+24/04/2009 12:15:43 p.m. Se termino la transaccion
+24/04/2009 03:27:01 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Atencion (Id, NroIncidente, NroIncidenteInterno, idDespachador, idAfiliadoExterno, Fecha, HoraLlamada, QTH, VL, idSintoma, telefonoAuxiliar, idDireccion, idObraSocial, Operador, Diagnostico, Observaciones, Estado, copago, abonado, condIva, servicio, montoiva) VALUES (@Id, @NroIncidente, @NroIncidenteInterno, @idDespachador, @idAfiliadoExterno, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @telefonoAuxiliar, @idDireccion, @idObraSocial, @Operador, @Diagnostico, @Observaciones, @Estado, @copago, @abonado, @condIva, @servicio, @montoiva)
+24/04/2009 03:27:01 p.m. Se termino la transaccion
+24/04/2009 03:30:19 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Atencion (Id, NroIncidente, NroIncidenteInterno, idDespachador, idAfiliadoExterno, Fecha, HoraLlamada, QTH, VL, idSintoma, telefonoAuxiliar, idDireccion, idObraSocial, Operador, Diagnostico, Observaciones, Estado, copago, abonado, condIva, servicio, montoiva) VALUES (@Id, @NroIncidente, @NroIncidenteInterno, @idDespachador, @idAfiliadoExterno, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @telefonoAuxiliar, @idDireccion, @idObraSocial, @Operador, @Diagnostico, @Observaciones, @Estado, @copago, @abonado, @condIva, @servicio, @montoiva)
+24/04/2009 03:30:19 p.m. Se termino la transaccion
+24/04/2009 11:09:25 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO ServicioEmergencia (id, Nombre, idDireccion, formula, Iva) VALUES (@id, @Nombre, @idDireccion, @formula, @Iva)
+INSERT INTO CodigoXEmpresa (idCodigo, idEmpresa, coseguro, servicio, tipoEmpresa) VALUES (@idCodigo, @idEmpresa, @coseguro, @servicio, @tipoEmpresa)
+24/04/2009 11:09:25 p.m. Se termino la transaccion
+24/04/2009 11:09:43 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO ObraSocial (Coseguro, idDireccion, id, Nombre, Observaciones, idServicioEmergencia, formula, Iva) VALUES (@Coseguro, @idDireccion, @id, @Nombre, @Observaciones, @idServicioEmergencia, @formula, @Iva)
+INSERT INTO CodigoXEmpresa (idCodigo, idEmpresa, coseguro, servicio, tipoEmpresa) VALUES (@idCodigo, @idEmpresa, @coseguro, @servicio, @tipoEmpresa)
+24/04/2009 11:09:43 p.m. Se termino la transaccion
+24/04/2009 11:10:14 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO AfiliadoExterno (Apellido, FechaNacimiento, id, Nombre, NroDoc, idObraSocial, Observaciones, Sexo, TipoDoc, TopeAtenciones, NroAfiliado, idDireccion, esEdad) VALUES (@Apellido, @FechaNacimiento, @id, @Nombre, @NroDoc, @idObraSocial, @Observaciones, @Sexo, @TipoDoc, @TopeAtenciones, @NroAfiliado, @idDireccion, @esEdad)
+INSERT INTO AfiliadoExternoXObraSocial (idAfiliadoExterno, idObraSocial) VALUES (@idAfiliadoExterno, @idObraSocial)
+24/04/2009 11:10:14 p.m. Se termino la transaccion
+24/04/2009 11:10:36 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Atencion (Id, NroIncidente, NroIncidenteInterno, idDespachador, idAfiliadoExterno, Fecha, HoraLlamada, QTH, VL, idSintoma, telefonoAuxiliar, idDireccion, idObraSocial, Operador, Diagnostico, Observaciones, Estado, copago, abonado, condIva, servicio, montoiva) VALUES (@Id, @NroIncidente, @NroIncidenteInterno, @idDespachador, @idAfiliadoExterno, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @telefonoAuxiliar, @idDireccion, @idObraSocial, @Operador, @Diagnostico, @Observaciones, @Estado, @copago, @abonado, @condIva, @servicio, @montoiva)
+24/04/2009 11:10:36 p.m. Se termino la transaccion
+24/04/2009 11:10:57 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Atencion (Id, NroIncidente, NroIncidenteInterno, idDespachador, idAfiliadoExterno, Fecha, HoraLlamada, QTH, VL, idSintoma, telefonoAuxiliar, idDireccion, idObraSocial, Operador, Diagnostico, Observaciones, Estado, copago, abonado, condIva, servicio, montoiva) VALUES (@Id, @NroIncidente, @NroIncidenteInterno, @idDespachador, @idAfiliadoExterno, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @telefonoAuxiliar, @idDireccion, @idObraSocial, @Operador, @Diagnostico, @Observaciones, @Estado, @copago, @abonado, @condIva, @servicio, @montoiva)
+24/04/2009 11:10:57 p.m. Se termino la transaccion
+26/04/2009 04:52:21 p.m. Se inicio una transaccion
+UPDATE Empleado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Login= @Login, Nombre= @Nombre, NroDoc= @NroDoc, Pass= @Pass, TipoDoc= @TipoDoc, Permisos= @Permisos, mp= @mp WHERE id= @id
+DELETE FROM Telefono WHERE  idOwner= @idOwner AND tipoOwner= @tipoOwner
+DELETE FROM CargoXEmpleado WHERE  idEmpleado= @idEmpleado
+INSERT INTO CargoXEmpleado (idCargo, idEmpleado) VALUES (@idCargo, @idEmpleado)
+INSERT INTO CargoXEmpleado (idCargo, idEmpleado) VALUES (@idCargo, @idEmpleado)
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+26/04/2009 04:52:21 p.m. Se termino la transaccion
+26/04/2009 04:52:33 p.m. Se inicio una transaccion
+UPDATE Empleado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Login= @Login, Nombre= @Nombre, NroDoc= @NroDoc, Pass= @Pass, TipoDoc= @TipoDoc, Permisos= @Permisos, mp= @mp WHERE id= @id
+DELETE FROM Telefono WHERE  idOwner= @idOwner AND tipoOwner= @tipoOwner
+DELETE FROM CargoXEmpleado WHERE  idEmpleado= @idEmpleado
+INSERT INTO CargoXEmpleado (idCargo, idEmpleado) VALUES (@idCargo, @idEmpleado)
+INSERT INTO CargoXEmpleado (idCargo, idEmpleado) VALUES (@idCargo, @idEmpleado)
+INSERT INTO CargoXEmpleado (idCargo, idEmpleado) VALUES (@idCargo, @idEmpleado)
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+26/04/2009 04:52:33 p.m. Se termino la transaccion
+26/04/2009 04:53:19 p.m. Se inicio una transaccion
+INSERT INTO Equipo (id, idMovil, eliminado) VALUES (@id, @idMovil, @eliminado)
+INSERT INTO EmpleadoXEquipo (idEmpleado, idEquipo) VALUES (@idEmpleado, @idEquipo)
+26/04/2009 04:53:19 p.m. Se termino la transaccion
+26/04/2009 04:55:57 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+26/04/2009 04:55:57 p.m. Se termino la transaccion
+26/04/2009 04:55:57 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+26/04/2009 04:55:57 p.m. Se termino la transaccion
+26/04/2009 04:56:36 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+26/04/2009 04:56:36 p.m. Se termino la transaccion
+26/04/2009 04:56:36 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+26/04/2009 04:56:36 p.m. Se termino la transaccion
+26/04/2009 04:57:19 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+26/04/2009 04:57:19 p.m. Se termino la transaccion
+26/04/2009 04:57:19 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+26/04/2009 04:57:19 p.m. Se termino la transaccion
+26/04/2009 04:57:37 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+26/04/2009 04:57:37 p.m. Se termino la transaccion
+26/04/2009 04:57:37 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+26/04/2009 04:57:37 p.m. Se termino la transaccion
+26/04/2009 04:57:47 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+26/04/2009 04:57:47 p.m. Se termino la transaccion
+26/04/2009 04:57:47 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+26/04/2009 04:57:47 p.m. Se termino la transaccion
+26/04/2009 06:06:38 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+26/04/2009 06:06:38 p.m. Se termino la transaccion
+26/04/2009 06:06:38 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+26/04/2009 06:06:38 p.m. Se termino la transaccion
+26/04/2009 06:12:08 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+26/04/2009 06:12:08 p.m. Se termino la transaccion
+26/04/2009 06:12:08 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+26/04/2009 06:12:08 p.m. Se termino la transaccion
+15/06/2009 09:24:40 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+15/06/2009 09:24:40 p.m. Se termino la transaccion
+15/06/2009 09:24:40 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+15/06/2009 09:24:40 p.m. Se termino la transaccion
+15/06/2009 09:29:53 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, idTipoCodigo= @idTipoCodigo, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+15/06/2009 09:29:53 p.m. Se termino la transaccion
+15/06/2009 09:29:53 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+15/06/2009 09:29:53 p.m. Se termino la transaccion
+15/06/2009 09:59:42 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE ObraSocial SET Coseguro= @Coseguro, Nombre= @Nombre, Observaciones= @Observaciones, idServicioEmergencia= @idServicioEmergencia, formula= @formula, Iva= @Iva WHERE id= @id
+DELETE FROM Telefono WHERE  idOwner= @idOwner AND tipoOwner= @tipoOwner
+DELETE FROM CodigoXEmpresa WHERE  idEmpresa= @idEmpresa AND tipoEmpresa= @tipoEmpresa
+INSERT INTO CodigoXEmpresa (idCodigo, idEmpresa, coseguro, servicio, tipoEmpresa, idtipocodigo) VALUES (@idCodigo, @idEmpresa, @coseguro, @servicio, @tipoEmpresa, @idtipocodigo)
+15/06/2009 09:59:42 p.m. Se termino la transaccion
+15/06/2009 10:05:11 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO AreaProtegida (id, ApellidoResp, idEmpleado, idDireccion, FechaInscripcion, InicioPrestacion, NombreArea, NombreResp, NroDocResp, Observaciones, TipoDocResp, TopeAtenciones, Importe) VALUES (@id, @ApellidoResp, @idEmpleado, @idDireccion, @FechaInscripcion, @InicioPrestacion, @NombreArea, @NombreResp, @NroDocResp, @Observaciones, @TipoDocResp, @TopeAtenciones, @Importe)
+15/06/2009 10:05:11 p.m. Se termino la transaccion
+15/06/2009 10:05:47 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Afiliado (Apellido, EstadoCivil, FechaInscripcion, FechaNacimiento, id, InicioPrestacion, Nombre, NroDoc, idObraSocial, Observaciones, idOcupacion, Sexo, TipoDoc, idDireccion, eliminado, TopeAtenciones, idEmpleado, importe) VALUES (@Apellido, @EstadoCivil, @FechaInscripcion, @FechaNacimiento, @id, @InicioPrestacion, @Nombre, @NroDoc, @idObraSocial, @Observaciones, @idOcupacion, @Sexo, @TipoDoc, @idDireccion, @eliminado, @TopeAtenciones, @idEmpleado, @importe)
+15/06/2009 10:05:47 p.m. Se termino la transaccion
+06/07/2009 09:36:27 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO AtencionB (Id, NroIncidente, NroIncidenteInterno, idDespachador, Fecha, HoraLlamada, SalidaPreInspeccion, LlegadaPreinspeccion, SalidaDotacion, QTH, VL, idSintoma, telefonoAuxiliar, idDireccion, Operador, Observaciones, Estado) VALUES (@Id, @NroIncidente, @NroIncidenteInterno, @idDespachador, @Fecha, @HoraLlamada, @SalidaPreInspeccion, @LlegadaPreinspeccion, @SalidaDotacion, @QTH, @VL, @idSintoma, @telefonoAuxiliar, @idDireccion, @Operador, @Observaciones, @Estado)
+06/07/2009 09:36:27 p.m. Se termino la transaccion
+06/07/2009 10:06:21 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, telefonoauxiliar= @telefonoauxiliar, Operador= @Operador, Observaciones= @Observaciones, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+06/07/2009 10:06:21 p.m. Se termino la transaccion
+06/07/2009 10:13:24 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, telefonoauxiliar= @telefonoauxiliar, Operador= @Operador, Observaciones= @Observaciones, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+06/07/2009 10:13:24 p.m. Se termino la transaccion
+06/07/2009 10:13:30 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, telefonoauxiliar= @telefonoauxiliar, Operador= @Operador, Observaciones= @Observaciones, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+06/07/2009 10:13:30 p.m. Se termino la transaccion
+06/07/2009 10:13:35 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, telefonoauxiliar= @telefonoauxiliar, Operador= @Operador, Observaciones= @Observaciones, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+06/07/2009 10:13:35 p.m. Se termino la transaccion
+06/07/2009 10:25:38 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, telefonoauxiliar= @telefonoauxiliar, Operador= @Operador, Observaciones= @Observaciones, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+06/07/2009 10:25:38 p.m. Se termino la transaccion
+07/07/2009 01:45:54 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, telefonoauxiliar= @telefonoauxiliar, Operador= @Operador, Observaciones= @Observaciones, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+07/07/2009 01:45:54 p.m. Se termino la transaccion
+07/07/2009 01:46:00 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, telefonoauxiliar= @telefonoauxiliar, Operador= @Operador, Observaciones= @Observaciones, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+07/07/2009 01:46:00 p.m. Se termino la transaccion
+04/08/2009 09:29:23 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Involucrado (Apellido, FechaNacimiento, id, Nombre, NroDoc, Observaciones, Sexo, TipoDoc, idDireccion, esEdad, idTipoRelacion, DescripcionRelacion) VALUES (@Apellido, @FechaNacimiento, @id, @Nombre, @NroDoc, @Observaciones, @Sexo, @TipoDoc, @idDireccion, @esEdad, @idTipoRelacion, @DescripcionRelacion)
+04/08/2009 09:29:24 p.m. Se termino la transaccion
+06/08/2009 05:01:01 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO AtencionB (Id, idDespachador, Fecha, HoraLlamada, NroIncidente, NroIncidenteInterno, SalidaPreInspeccion, LlegadaPreinspeccion, SalidaDotacion, QTH, VL, Cronica, Observaciones, DescripcionPerjuiciosCampo, MaterialesCombustibles, DescripcionPerjuiciosVivienda, AccesoPor, Referencias, Aseguradora, DescripcionMaterial, EquiposEspeciales, Poliza, AmbientesAfectadosVivienda, HectareasAfectadasCampo, idInstalacionElectrica, idInstalacionGas, Estado, idSintoma, idDireccion) VALUES (@Id, @idDespachador, @Fecha, @HoraLlamada, @NroIncidente, @NroIncidenteInterno, @SalidaPreInspeccion, @LlegadaPreinspeccion, @SalidaDotacion, @QTH, @VL, @Cronica, @Observaciones, @DescripcionPerjuiciosCampo, @MaterialesCombustibles, @DescripcionPerjuiciosVivienda, @AccesoPor, @Referencias, @Aseguradora, @DescripcionMaterial, @EquiposEspeciales, @Poliza, @AmbientesAfectadosVivienda, @HectareasAfectadasCampo, @idInstalacionElectrica, @idInstalacionGas, @Estado, @idSintoma, @idDireccion)
+06/08/2009 05:08:35 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO AtencionB (Id, idDespachador, Fecha, HoraLlamada, NroIncidente, NroIncidenteInterno, SalidaPreInspeccion, LlegadaPreinspeccion, SalidaDotacion, QTH, VL, Cronica, Observaciones, DescripcionPerjuiciosCampo, MaterialesCombustibles, DescripcionPerjuiciosVivienda, AccesoPor, Referencias, Aseguradora, DescripcionMaterial, EquiposEspeciales, Poliza, AmbientesAfectadosVivienda, HectareasAfectadasCampo, idInstalacionElectrica, idInstalacionGas, Estado, idSintoma, idDireccion) VALUES (@Id, @idDespachador, @Fecha, @HoraLlamada, @NroIncidente, @NroIncidenteInterno, @SalidaPreInspeccion, @LlegadaPreinspeccion, @SalidaDotacion, @QTH, @VL, @Cronica, @Observaciones, @DescripcionPerjuiciosCampo, @MaterialesCombustibles, @DescripcionPerjuiciosVivienda, @AccesoPor, @Referencias, @Aseguradora, @DescripcionMaterial, @EquiposEspeciales, @Poliza, @AmbientesAfectadosVivienda, @HectareasAfectadasCampo, @idInstalacionElectrica, @idInstalacionGas, @Estado, @idSintoma, @idDireccion)
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Involucrado (idSiniestro, Apellido, FechaNacimiento, id, Nombre, NroDoc, Observaciones, Sexo, TipoDoc, idDireccion, esEdad, idTipoRelacion, DescripcionRelacion, Telefono) VALUES (@idSiniestro, @Apellido, @FechaNacimiento, @id, @Nombre, @NroDoc, @Observaciones, @Sexo, @TipoDoc, @idDireccion, @esEdad, @idTipoRelacion, @DescripcionRelacion, @Telefono)
+06/08/2009 05:08:35 p.m. Se termino la transaccion
+06/08/2009 05:21:24 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Involucrado (idSiniestro, Apellido, FechaNacimiento, id, Nombre, NroDoc, Observaciones, Sexo, TipoDoc, idDireccion, esEdad, idTipoRelacion, DescripcionRelacion, Telefono) VALUES (@idSiniestro, @Apellido, @FechaNacimiento, @id, @Nombre, @NroDoc, @Observaciones, @Sexo, @TipoDoc, @idDireccion, @esEdad, @idTipoRelacion, @DescripcionRelacion, @Telefono)
+06/08/2009 05:21:24 p.m. Se termino la transaccion
+06/08/2009 05:22:09 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+06/08/2009 05:22:09 p.m. Se termino la transaccion
+24/08/2009 11:40:36 a.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO AtencionB (Id, idDespachador, Fecha, HoraLlamada, NroIncidente, NroIncidenteInterno, SalidaPreInspeccion, LlegadaPreinspeccion, SalidaDotacion, QTH, VL, Cronica, Observaciones, DescripcionPerjuiciosCampo, MaterialesCombustibles, DescripcionPerjuiciosVivienda, AccesoPor, Referencias, Aseguradora, DescripcionMaterial, EquiposEspeciales, Poliza, AmbientesAfectadosVivienda, HectareasAfectadasCampo, PoliciaACargo, mPoliciaCantidad, mPoliciaMovil, SEMedico, SECentroAsistencial, SEMedicoMP, SEAmbulancias, idInstalacionElectrica, idInstalacionGas, Estado, idSintoma, idDireccion) VALUES (@Id, @idDespachador, @Fecha, @HoraLlamada, @NroIncidente, @NroIncidenteInterno, @SalidaPreInspeccion, @LlegadaPreinspeccion, @SalidaDotacion, @QTH, @VL, @Cronica, @Observaciones, @DescripcionPerjuiciosCampo, @MaterialesCombustibles, @DescripcionPerjuiciosVivienda, @AccesoPor, @Referencias, @Aseguradora, @DescripcionMaterial, @EquiposEspeciales, @Poliza, @AmbientesAfectadosVivienda, @HectareasAfectadasCampo, @PoliciaACargo, @mPoliciaCantidad, @mPoliciaMovil, @SEMedico, @SECentroAsistencial, @SEMedicoMP, @SEAmbulancias, @idInstalacionElectrica, @idInstalacionGas, @Estado, @idSintoma, @idDireccion)
+24/08/2009 11:45:51 a.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO AtencionB (Id, idDespachador, Fecha, HoraLlamada, NroIncidente, NroIncidenteInterno, SalidaPreInspeccion, LlegadaPreinspeccion, SalidaDotacion, QTH, VL, Cronica, Observaciones, DescripcionPerjuiciosCampo, MaterialesCombustibles, DescripcionPerjuiciosVivienda, AccesoPor, Referencias, Aseguradora, DescripcionMaterial, EquiposEspeciales, Poliza, AmbientesAfectadosVivienda, HectareasAfectadasCampo, PoliciaACargo, mPoliciaCantidad, mPoliciaMovil, SEMedico, SECentroAsistencial, SEMedicoMP, SEAmbulancias, idInstalacionElectrica, idInstalacionGas, Estado, idSintoma, idDireccion) VALUES (@Id, @idDespachador, @Fecha, @HoraLlamada, @NroIncidente, @NroIncidenteInterno, @SalidaPreInspeccion, @LlegadaPreinspeccion, @SalidaDotacion, @QTH, @VL, @Cronica, @Observaciones, @DescripcionPerjuiciosCampo, @MaterialesCombustibles, @DescripcionPerjuiciosVivienda, @AccesoPor, @Referencias, @Aseguradora, @DescripcionMaterial, @EquiposEspeciales, @Poliza, @AmbientesAfectadosVivienda, @HectareasAfectadasCampo, @PoliciaACargo, @mPoliciaCantidad, @mPoliciaMovil, @SEMedico, @SECentroAsistencial, @SEMedicoMP, @SEAmbulancias, @idInstalacionElectrica, @idInstalacionGas, @Estado, @idSintoma, @idDireccion)
+24/08/2009 11:47:25 a.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO AtencionB (Id, idDespachador, Fecha, HoraLlamada, NroIncidente, NroIncidenteInterno, SalidaPreInspeccion, LlegadaPreinspeccion, SalidaDotacion, QTH, VL, Cronica, Observaciones, DescripcionPerjuiciosCampo, MaterialesCombustibles, DescripcionPerjuiciosVivienda, AccesoPor, Referencias, Aseguradora, DescripcionMaterial, EquiposEspeciales, Poliza, AmbientesAfectadosVivienda, HectareasAfectadasCampo, PoliciaACargo, PoliciaCantidad, PoliciaMovil, SEMedico, SECentroAsistencial, SEMedicoMP, SEAmbulancias, idInstalacionElectrica, idInstalacionGas, Estado, idSintoma, idDireccion) VALUES (@Id, @idDespachador, @Fecha, @HoraLlamada, @NroIncidente, @NroIncidenteInterno, @SalidaPreInspeccion, @LlegadaPreinspeccion, @SalidaDotacion, @QTH, @VL, @Cronica, @Observaciones, @DescripcionPerjuiciosCampo, @MaterialesCombustibles, @DescripcionPerjuiciosVivienda, @AccesoPor, @Referencias, @Aseguradora, @DescripcionMaterial, @EquiposEspeciales, @Poliza, @AmbientesAfectadosVivienda, @HectareasAfectadasCampo, @PoliciaACargo, @PoliciaCantidad, @PoliciaMovil, @SEMedico, @SECentroAsistencial, @SEMedicoMP, @SEAmbulancias, @idInstalacionElectrica, @idInstalacionGas, @Estado, @idSintoma, @idDireccion)
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Involucrado (idSiniestro, Apellido, FechaNacimiento, id, Nombre, NroDoc, Observaciones, Sexo, TipoDoc, idDireccion, esEdad, idTipoRelacion, DescripcionRelacion, Telefono) VALUES (@idSiniestro, @Apellido, @FechaNacimiento, @id, @Nombre, @NroDoc, @Observaciones, @Sexo, @TipoDoc, @idDireccion, @esEdad, @idTipoRelacion, @DescripcionRelacion, @Telefono)
+24/08/2009 11:47:25 a.m. Se termino la transaccion
+24/08/2009 11:48:41 a.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO AtencionB (Id, idDespachador, Fecha, HoraLlamada, NroIncidente, NroIncidenteInterno, SalidaPreInspeccion, LlegadaPreinspeccion, SalidaDotacion, QTH, VL, Cronica, Observaciones, DescripcionPerjuiciosCampo, MaterialesCombustibles, DescripcionPerjuiciosVivienda, AccesoPor, Referencias, Aseguradora, DescripcionMaterial, EquiposEspeciales, Poliza, AmbientesAfectadosVivienda, HectareasAfectadasCampo, PoliciaACargo, PoliciaCantidad, PoliciaMovil, SEMedico, SECentroAsistencial, SEMedicoMP, SEAmbulancias, idInstalacionElectrica, idInstalacionGas, Estado, idSintoma, idDireccion) VALUES (@Id, @idDespachador, @Fecha, @HoraLlamada, @NroIncidente, @NroIncidenteInterno, @SalidaPreInspeccion, @LlegadaPreinspeccion, @SalidaDotacion, @QTH, @VL, @Cronica, @Observaciones, @DescripcionPerjuiciosCampo, @MaterialesCombustibles, @DescripcionPerjuiciosVivienda, @AccesoPor, @Referencias, @Aseguradora, @DescripcionMaterial, @EquiposEspeciales, @Poliza, @AmbientesAfectadosVivienda, @HectareasAfectadasCampo, @PoliciaACargo, @PoliciaCantidad, @PoliciaMovil, @SEMedico, @SECentroAsistencial, @SEMedicoMP, @SEAmbulancias, @idInstalacionElectrica, @idInstalacionGas, @Estado, @idSintoma, @idDireccion)
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Involucrado (idSiniestro, Apellido, FechaNacimiento, id, Nombre, NroDoc, Observaciones, Sexo, TipoDoc, idDireccion, esEdad, idTipoRelacion, DescripcionRelacion, Telefono) VALUES (@idSiniestro, @Apellido, @FechaNacimiento, @id, @Nombre, @NroDoc, @Observaciones, @Sexo, @TipoDoc, @idDireccion, @esEdad, @idTipoRelacion, @DescripcionRelacion, @Telefono)
+24/08/2009 11:48:41 a.m. Se termino la transaccion
+24/08/2009 11:52:31 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+24/08/2009 11:52:31 a.m. Se termino la transaccion
+24/08/2009 11:53:54 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+24/08/2009 11:53:54 a.m. Se termino la transaccion
+24/08/2009 12:07:37 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+24/08/2009 12:07:37 p.m. Se termino la transaccion
+24/08/2009 12:13:40 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+INSERT INTO Vehiculo (marca, patente, modelo, tipo, perjuicios, color, idSiniestro, id) VALUES (@marca, @patente, @modelo, @tipo, @perjuicios, @color, @idSiniestro, @id)
+24/08/2009 12:13:40 p.m. Se termino la transaccion
+24/08/2009 12:14:21 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Vehiculo SET marca= @marca, patente= @patente, modelo= @modelo, tipo= @tipo, perjuicios= @perjuicios, color= @color, idSiniestro= @idSiniestro WHERE id= @id
+24/08/2009 12:14:21 p.m. Se termino la transaccion
+24/08/2009 12:14:34 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Vehiculo SET marca= @marca, patente= @patente, modelo= @modelo, tipo= @tipo, perjuicios= @perjuicios, color= @color, idSiniestro= @idSiniestro WHERE id= @id
+24/08/2009 12:14:34 p.m. Se termino la transaccion
+24/08/2009 12:17:02 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO AtencionB (Id, idDespachador, Fecha, HoraLlamada, NroIncidente, NroIncidenteInterno, SalidaPreInspeccion, LlegadaPreinspeccion, SalidaDotacion, QTH, VL, Cronica, Observaciones, DescripcionPerjuiciosCampo, MaterialesCombustibles, DescripcionPerjuiciosVivienda, AccesoPor, Referencias, Aseguradora, DescripcionMaterial, EquiposEspeciales, Poliza, AmbientesAfectadosVivienda, HectareasAfectadasCampo, PoliciaACargo, PoliciaCantidad, PoliciaMovil, SEMedico, SECentroAsistencial, SEMedicoMP, SEAmbulancias, idInstalacionElectrica, idInstalacionGas, Estado, idSintoma, idDireccion) VALUES (@Id, @idDespachador, @Fecha, @HoraLlamada, @NroIncidente, @NroIncidenteInterno, @SalidaPreInspeccion, @LlegadaPreinspeccion, @SalidaDotacion, @QTH, @VL, @Cronica, @Observaciones, @DescripcionPerjuiciosCampo, @MaterialesCombustibles, @DescripcionPerjuiciosVivienda, @AccesoPor, @Referencias, @Aseguradora, @DescripcionMaterial, @EquiposEspeciales, @Poliza, @AmbientesAfectadosVivienda, @HectareasAfectadasCampo, @PoliciaACargo, @PoliciaCantidad, @PoliciaMovil, @SEMedico, @SECentroAsistencial, @SEMedicoMP, @SEAmbulancias, @idInstalacionElectrica, @idInstalacionGas, @Estado, @idSintoma, @idDireccion)
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Involucrado (idSiniestro, Apellido, FechaNacimiento, id, Nombre, NroDoc, Observaciones, Sexo, TipoDoc, idDireccion, esEdad, idTipoRelacion, DescripcionRelacion, Telefono) VALUES (@idSiniestro, @Apellido, @FechaNacimiento, @id, @Nombre, @NroDoc, @Observaciones, @Sexo, @TipoDoc, @idDireccion, @esEdad, @idTipoRelacion, @DescripcionRelacion, @Telefono)
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Involucrado (idSiniestro, Apellido, FechaNacimiento, id, Nombre, NroDoc, Observaciones, Sexo, TipoDoc, idDireccion, esEdad, idTipoRelacion, DescripcionRelacion, Telefono) VALUES (@idSiniestro, @Apellido, @FechaNacimiento, @id, @Nombre, @NroDoc, @Observaciones, @Sexo, @TipoDoc, @idDireccion, @esEdad, @idTipoRelacion, @DescripcionRelacion, @Telefono)
+INSERT INTO Vehiculo (marca, patente, modelo, tipo, perjuicios, color, idSiniestro, id) VALUES (@marca, @patente, @modelo, @tipo, @perjuicios, @color, @idSiniestro, @id)
+24/08/2009 12:17:02 p.m. Se termino la transaccion
+24/08/2009 12:49:10 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Vehiculo SET marca= @marca, patente= @patente, modelo= @modelo, tipo= @tipo, perjuicios= @perjuicios, color= @color, idSiniestro= @idSiniestro WHERE id= @id
+24/08/2009 12:49:10 p.m. Se termino la transaccion
+24/08/2009 12:49:10 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+24/08/2009 12:49:10 p.m. Se termino la transaccion
+27/08/2009 02:06:43 a.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO AtencionB (Id, idDespachador, Fecha, HoraLlamada, NroIncidente, NroIncidenteInterno, SalidaPreInspeccion, LlegadaPreinspeccion, SalidaDotacion, QTH, VL, Cronica, Observaciones, DescripcionPerjuiciosCampo, MaterialesCombustibles, DescripcionPerjuiciosVivienda, AccesoPor, Referencias, Aseguradora, DescripcionMaterial, EquiposEspeciales, Poliza, AmbientesAfectadosVivienda, HectareasAfectadasCampo, PoliciaACargo, PoliciaCantidad, PoliciaMovil, SEMedico, SECentroAsistencial, SEMedicoMP, SEAmbulancias, idInstalacionElectrica, idInstalacionGas, Estado, idSintoma, idDireccion) VALUES (@Id, @idDespachador, @Fecha, @HoraLlamada, @NroIncidente, @NroIncidenteInterno, @SalidaPreInspeccion, @LlegadaPreinspeccion, @SalidaDotacion, @QTH, @VL, @Cronica, @Observaciones, @DescripcionPerjuiciosCampo, @MaterialesCombustibles, @DescripcionPerjuiciosVivienda, @AccesoPor, @Referencias, @Aseguradora, @DescripcionMaterial, @EquiposEspeciales, @Poliza, @AmbientesAfectadosVivienda, @HectareasAfectadasCampo, @PoliciaACargo, @PoliciaCantidad, @PoliciaMovil, @SEMedico, @SECentroAsistencial, @SEMedicoMP, @SEAmbulancias, @idInstalacionElectrica, @idInstalacionGas, @Estado, @idSintoma, @idDireccion)
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Involucrado (idSiniestro, Apellido, FechaNacimiento, id, Nombre, NroDoc, Observaciones, Sexo, TipoDoc, idDireccion, esEdad, idTipoRelacion, DescripcionRelacion, Telefono) VALUES (@idSiniestro, @Apellido, @FechaNacimiento, @id, @Nombre, @NroDoc, @Observaciones, @Sexo, @TipoDoc, @idDireccion, @esEdad, @idTipoRelacion, @DescripcionRelacion, @Telefono)
+27/08/2009 02:06:43 a.m. Se termino la transaccion
+27/08/2009 02:09:15 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+27/08/2009 02:09:15 a.m. Se termino la transaccion
+27/08/2009 02:09:15 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+27/08/2009 02:09:15 a.m. Se termino la transaccion
+27/08/2009 02:22:28 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Vehiculo SET marca= @marca, patente= @patente, modelo= @modelo, tipo= @tipo, perjuicios= @perjuicios, color= @color, idSiniestro= @idSiniestro WHERE id= @id
+27/08/2009 02:22:28 a.m. Se termino la transaccion
+27/08/2009 02:22:28 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+27/08/2009 02:22:28 a.m. Se termino la transaccion
+27/08/2009 02:22:35 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Vehiculo SET marca= @marca, patente= @patente, modelo= @modelo, tipo= @tipo, perjuicios= @perjuicios, color= @color, idSiniestro= @idSiniestro WHERE id= @id
+27/08/2009 02:22:35 a.m. Se termino la transaccion
+27/08/2009 02:22:35 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+27/08/2009 02:22:35 a.m. Se termino la transaccion
+27/08/2009 02:22:44 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Vehiculo SET marca= @marca, patente= @patente, modelo= @modelo, tipo= @tipo, perjuicios= @perjuicios, color= @color, idSiniestro= @idSiniestro WHERE id= @id
+27/08/2009 02:22:44 a.m. Se termino la transaccion
+27/08/2009 02:22:44 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+27/08/2009 02:22:44 a.m. Se termino la transaccion
+27/08/2009 02:36:57 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+27/08/2009 02:36:57 a.m. Se termino la transaccion
+27/08/2009 02:36:57 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+27/08/2009 02:36:57 a.m. Se termino la transaccion
+27/08/2009 02:37:04 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Vehiculo SET marca= @marca, patente= @patente, modelo= @modelo, tipo= @tipo, perjuicios= @perjuicios, color= @color, idSiniestro= @idSiniestro WHERE id= @id
+27/08/2009 02:37:04 a.m. Se termino la transaccion
+27/08/2009 02:37:04 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+27/08/2009 02:37:04 a.m. Se termino la transaccion
+27/08/2009 02:37:07 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Vehiculo SET marca= @marca, patente= @patente, modelo= @modelo, tipo= @tipo, perjuicios= @perjuicios, color= @color, idSiniestro= @idSiniestro WHERE id= @id
+27/08/2009 02:37:07 a.m. Se termino la transaccion
+27/08/2009 02:37:07 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+27/08/2009 02:37:07 a.m. Se termino la transaccion
+27/08/2009 02:37:09 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+27/08/2009 02:37:09 a.m. Se termino la transaccion
+27/08/2009 02:37:09 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+27/08/2009 02:37:09 a.m. Se termino la transaccion
+27/08/2009 02:37:25 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Vehiculo SET marca= @marca, patente= @patente, modelo= @modelo, tipo= @tipo, perjuicios= @perjuicios, color= @color, idSiniestro= @idSiniestro WHERE id= @id
+27/08/2009 02:37:25 a.m. Se termino la transaccion
+27/08/2009 02:37:25 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+27/08/2009 02:37:25 a.m. Se termino la transaccion
+27/08/2009 02:37:54 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Vehiculo SET marca= @marca, patente= @patente, modelo= @modelo, tipo= @tipo, perjuicios= @perjuicios, color= @color, idSiniestro= @idSiniestro WHERE id= @id
+27/08/2009 02:37:54 a.m. Se termino la transaccion
+27/08/2009 02:37:54 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+27/08/2009 02:37:54 a.m. Se termino la transaccion
+27/08/2009 02:38:55 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Vehiculo SET marca= @marca, patente= @patente, modelo= @modelo, tipo= @tipo, perjuicios= @perjuicios, color= @color, idSiniestro= @idSiniestro WHERE id= @id
+27/08/2009 02:38:55 a.m. Se termino la transaccion
+27/08/2009 02:38:55 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+27/08/2009 02:38:55 a.m. Se termino la transaccion
+27/08/2009 02:42:26 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Vehiculo SET marca= @marca, patente= @patente, modelo= @modelo, tipo= @tipo, perjuicios= @perjuicios, color= @color, idSiniestro= @idSiniestro WHERE id= @id
+27/08/2009 02:42:26 a.m. Se termino la transaccion
+27/08/2009 02:42:26 a.m. Se inicio una transaccion
+27/08/2009 02:42:26 a.m. Se termino la transaccion
+27/08/2009 02:44:19 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Vehiculo SET marca= @marca, patente= @patente, modelo= @modelo, tipo= @tipo, perjuicios= @perjuicios, color= @color, idSiniestro= @idSiniestro WHERE id= @id
+27/08/2009 02:44:19 a.m. Se termino la transaccion
+27/08/2009 02:44:19 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+27/08/2009 02:44:19 a.m. Se termino la transaccion
+27/08/2009 02:46:11 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+27/08/2009 02:46:11 a.m. Se termino la transaccion
+27/08/2009 02:46:11 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+27/08/2009 02:46:11 a.m. Se termino la transaccion
+28/08/2009 11:54:23 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+28/08/2009 11:54:23 a.m. Se termino la transaccion
+28/08/2009 11:54:23 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+28/08/2009 11:54:23 a.m. Se termino la transaccion
+04/09/2009 01:42:19 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO AtencionB (Id, idDespachador, Fecha, HoraLlamada, NroIncidente, NroIncidenteInterno, SalidaPreInspeccion, LlegadaPreinspeccion, SalidaDotacion, QTH, VL, Cronica, Observaciones, DescripcionPerjuiciosCampo, MaterialesCombustibles, DescripcionPerjuiciosVivienda, AccesoPor, Referencias, Aseguradora, DescripcionMaterial, EquiposEspeciales, Poliza, AmbientesAfectadosVivienda, HectareasAfectadasCampo, PoliciaACargo, PoliciaCantidad, PoliciaMovil, SEMedico, SECentroAsistencial, SEMedicoMP, SEAmbulancias, idInstalacionElectrica, idInstalacionGas, Estado, idSintoma, idDireccion) VALUES (@Id, @idDespachador, @Fecha, @HoraLlamada, @NroIncidente, @NroIncidenteInterno, @SalidaPreInspeccion, @LlegadaPreinspeccion, @SalidaDotacion, @QTH, @VL, @Cronica, @Observaciones, @DescripcionPerjuiciosCampo, @MaterialesCombustibles, @DescripcionPerjuiciosVivienda, @AccesoPor, @Referencias, @Aseguradora, @DescripcionMaterial, @EquiposEspeciales, @Poliza, @AmbientesAfectadosVivienda, @HectareasAfectadasCampo, @PoliciaACargo, @PoliciaCantidad, @PoliciaMovil, @SEMedico, @SECentroAsistencial, @SEMedicoMP, @SEAmbulancias, @idInstalacionElectrica, @idInstalacionGas, @Estado, @idSintoma, @idDireccion)
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Involucrado (idSiniestro, Apellido, FechaNacimiento, id, Nombre, NroDoc, Observaciones, Sexo, TipoDoc, idDireccion, esEdad, idTipoRelacion, DescripcionRelacion, Telefono) VALUES (@idSiniestro, @Apellido, @FechaNacimiento, @id, @Nombre, @NroDoc, @Observaciones, @Sexo, @TipoDoc, @idDireccion, @esEdad, @idTipoRelacion, @DescripcionRelacion, @Telefono)
+04/09/2009 01:42:19 p.m. Se termino la transaccion
+04/09/2009 01:43:41 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+04/09/2009 01:43:41 p.m. Se termino la transaccion
+04/09/2009 01:43:41 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+04/09/2009 01:43:41 p.m. Se termino la transaccion
+14/09/2009 02:28:47 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, idTipoCodigo= @idTipoCodigo, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+14/09/2009 02:28:47 p.m. Se termino la transaccion
+14/09/2009 02:28:47 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+14/09/2009 02:28:47 p.m. Se termino la transaccion
+14/09/2009 02:30:46 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, idTipoCodigo= @idTipoCodigo, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+14/09/2009 02:30:46 p.m. Se termino la transaccion
+14/09/2009 02:30:46 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+14/09/2009 02:30:46 p.m. Se termino la transaccion
+14/09/2009 02:30:53 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, idTipoCodigo= @idTipoCodigo, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+14/09/2009 02:30:53 p.m. Se termino la transaccion
+14/09/2009 02:30:53 p.m. Se inicio una transaccion
+14/09/2009 02:30:53 p.m. Se termino la transaccion
+14/09/2009 02:30:57 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, idTipoCodigo= @idTipoCodigo, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+14/09/2009 02:30:57 p.m. Se termino la transaccion
+14/09/2009 02:30:57 p.m. Se inicio una transaccion
+14/09/2009 02:30:57 p.m. Se termino la transaccion
+14/09/2009 02:31:11 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, idTipoCodigo= @idTipoCodigo, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+14/09/2009 02:31:11 p.m. Se termino la transaccion
+14/09/2009 02:31:11 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+14/09/2009 02:31:11 p.m. Se termino la transaccion
+14/09/2009 02:31:19 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, idTipoCodigo= @idTipoCodigo, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+14/09/2009 02:31:19 p.m. Se termino la transaccion
+14/09/2009 02:31:19 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+14/09/2009 02:31:19 p.m. Se termino la transaccion
+14/09/2009 02:31:36 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, idTipoCodigo= @idTipoCodigo, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+14/09/2009 02:31:36 p.m. Se termino la transaccion
+14/09/2009 02:33:03 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, idTipoCodigo= @idTipoCodigo, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+14/09/2009 02:33:03 p.m. Se termino la transaccion
+14/09/2009 02:33:03 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+14/09/2009 02:33:03 p.m. Se termino la transaccion
+14/09/2009 02:34:46 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE ObraSocial SET Coseguro= @Coseguro, Nombre= @Nombre, Observaciones= @Observaciones, idServicioEmergencia= @idServicioEmergencia, formula= @formula, Iva= @Iva WHERE id= @id
+DELETE FROM Telefono WHERE  idOwner= @idOwner AND tipoOwner= @tipoOwner
+DELETE FROM CodigoXEmpresa WHERE  idEmpresa= @idEmpresa AND tipoEmpresa= @tipoEmpresa
+INSERT INTO CodigoXEmpresa (idCodigo, idEmpresa, coseguro, servicio, tipoEmpresa, idtipocodigo) VALUES (@idCodigo, @idEmpresa, @coseguro, @servicio, @tipoEmpresa, @idtipocodigo)
+14/09/2009 02:34:46 p.m. Se termino la transaccion
+14/09/2009 02:36:16 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Atencion (Id, NroIncidente, NroIncidenteInterno, idDespachador, idAfiliadoExterno, Fecha, HoraLlamada, QTH, VL, idSintoma, telefonoAuxiliar, idDireccion, idObraSocial, Operador, Diagnostico, Observaciones, Estado, idTipoCodigo, copago, abonado, condIva, servicio, montoiva) VALUES (@Id, @NroIncidente, @NroIncidenteInterno, @idDespachador, @idAfiliadoExterno, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @telefonoAuxiliar, @idDireccion, @idObraSocial, @Operador, @Diagnostico, @Observaciones, @Estado, @idTipoCodigo, @copago, @abonado, @condIva, @servicio, @montoiva)
+14/09/2009 02:36:16 p.m. Se termino la transaccion
+14/09/2009 02:36:35 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, idTipoCodigo= @idTipoCodigo, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+14/09/2009 02:36:35 p.m. Se termino la transaccion
+14/09/2009 02:36:35 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+14/09/2009 02:36:35 p.m. Se termino la transaccion
+14/09/2009 02:36:48 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, idTipoCodigo= @idTipoCodigo, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+14/09/2009 02:36:48 p.m. Se termino la transaccion
+14/09/2009 02:36:48 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+14/09/2009 02:36:48 p.m. Se termino la transaccion
+14/09/2009 02:37:10 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idObraSocial= @idObraSocial, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, idTipoCodigo= @idTipoCodigo, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+14/09/2009 02:37:10 p.m. Se termino la transaccion
+14/09/2009 02:37:10 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+14/09/2009 02:37:10 p.m. Se termino la transaccion
+14/09/2009 02:38:24 p.m. Se inicio una transaccion
+UPDATE Atencion SET idLiquidacion= @idLiquidacion, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva WHERE id= @id
+UPDATE Atencion SET idLiquidacion= @idLiquidacion, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva WHERE id= @id
+UPDATE Atencion SET idLiquidacion= @idLiquidacion, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva WHERE id= @id
+INSERT INTO LiquidacionEmpresa (id, fecha, idEmpresa, tipoEmpresa, mes, aYear, total) VALUES (@id, @fecha, @idEmpresa, @tipoEmpresa, @mes, @aYear, @total)
+14/09/2009 02:38:24 p.m. Se termino la transaccion
+19/03/2010 05:12:40 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+19/03/2010 05:13:40 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO ObraSocial (Coseguro, idDireccion, id, Nombre, Observaciones, idServicioEmergencia, formula, Iva) VALUES (@Coseguro, @idDireccion, @id, @Nombre, @Observaciones, @idServicioEmergencia, @formula, @Iva)
+INSERT INTO Telefono (id, numero, idTipoTelefono, observaciones, idOwner, tipoOwner) VALUES (@id, @numero, @idTipoTelefono, @observaciones, @idOwner, @tipoOwner)
+INSERT INTO CodigoXEmpresa (idCodigo, idEmpresa, coseguro, servicio, tipoEmpresa, idtipocodigo) VALUES (@idCodigo, @idEmpresa, @coseguro, @servicio, @tipoEmpresa, @idtipocodigo)
+19/03/2010 05:13:40 p.m. Se termino la transaccion
+19/03/2010 05:17:22 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Vehiculo (id, marca, patente, modelo) VALUES (@id, @marca, @patente, @modelo)
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Afiliado (Apellido, EstadoCivil, FechaInscripcion, FechaNacimiento, id, InicioPrestacion, Nombre, NroDoc, idObraSocial, Observaciones, idOcupacion, Sexo, TipoDoc, idDireccion, idAfiliadoTitular, idParentezco, eliminado) VALUES (@Apellido, @EstadoCivil, @FechaInscripcion, @FechaNacimiento, @id, @InicioPrestacion, @Nombre, @NroDoc, @idObraSocial, @Observaciones, @idOcupacion, @Sexo, @TipoDoc, @idDireccion, @idAfiliadoTitular, @idParentezco, @eliminado)
+INSERT INTO AlergiaXAfiliado (idAlergia, idAfiliado) VALUES (@idAlergia, @idAfiliado)
+INSERT INTO EnfermedadXAfiliado (idEnfermedad, idAfiliado) VALUES (@idEnfermedad, @idAfiliado)
+INSERT INTO MedicamentoXAfiliado (idMedicamento, idAfiliado) VALUES (@idMedicamento, @idAfiliado)
+INSERT INTO Afiliado (Apellido, EstadoCivil, FechaInscripcion, FechaNacimiento, id, InicioPrestacion, Nombre, NroDoc, idObraSocial, Observaciones, idOcupacion, Sexo, TipoDoc, idDireccion, eliminado, TopeAtenciones, idEmpleado, importe) VALUES (@Apellido, @EstadoCivil, @FechaInscripcion, @FechaNacimiento, @id, @InicioPrestacion, @Nombre, @NroDoc, @idObraSocial, @Observaciones, @idOcupacion, @Sexo, @TipoDoc, @idDireccion, @eliminado, @TopeAtenciones, @idEmpleado, @importe)
+INSERT INTO EnfermedadXAfiliado (idEnfermedad, idAfiliado) VALUES (@idEnfermedad, @idAfiliado)
+INSERT INTO EnfermedadXAfiliado (idEnfermedad, idAfiliado) VALUES (@idEnfermedad, @idAfiliado)
+INSERT INTO MedicamentoXAfiliado (idMedicamento, idAfiliado) VALUES (@idMedicamento, @idAfiliado)
+INSERT INTO Telefono (id, numero, idTipoTelefono, observaciones, idOwner, tipoOwner) VALUES (@id, @numero, @idTipoTelefono, @observaciones, @idOwner, @tipoOwner)
+19/03/2010 05:17:22 p.m. Se termino la transaccion
+19/03/2010 08:30:43 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Empleado (id, Apellido, FechaNacimiento, Login, Nombre, NroDoc, Pass, TipoDoc, Permisos, EsSuperUsuario, mp, eliminado, idDireccion) VALUES (@id, @Apellido, @FechaNacimiento, @Login, @Nombre, @NroDoc, @Pass, @TipoDoc, @Permisos, @EsSuperUsuario, @mp, @eliminado, @idDireccion)
+INSERT INTO Telefono (id, numero, idTipoTelefono, observaciones, idOwner, tipoOwner) VALUES (@id, @numero, @idTipoTelefono, @observaciones, @idOwner, @tipoOwner)
+INSERT INTO CargoXEmpleado (idCargo, idEmpleado) VALUES (@idCargo, @idEmpleado)
+19/03/2010 08:30:43 p.m. Se termino la transaccion
+19/03/2010 08:30:54 p.m. Se inicio una transaccion
+INSERT INTO Equipo (id, idMovil, eliminado) VALUES (@id, @idMovil, @eliminado)
+INSERT INTO EmpleadoXEquipo (idEmpleado, idEquipo) VALUES (@idEmpleado, @idEquipo)
+19/03/2010 08:30:54 p.m. Se termino la transaccion
+19/03/2010 08:45:46 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO ServicioEmergencia (id, Nombre, idDireccion, formula, Iva) VALUES (@id, @Nombre, @idDireccion, @formula, @Iva)
+INSERT INTO Telefono (id, numero, idTipoTelefono, observaciones, idOwner, tipoOwner) VALUES (@id, @numero, @idTipoTelefono, @observaciones, @idOwner, @tipoOwner)
+INSERT INTO CodigoXEmpresa (idCodigo, idEmpresa, coseguro, servicio, tipoEmpresa, idtipocodigo) VALUES (@idCodigo, @idEmpresa, @coseguro, @servicio, @tipoEmpresa, @idtipocodigo)
+19/03/2010 08:45:46 p.m. Se termino la transaccion
+19/03/2010 08:52:20 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Afiliado SET Apellido= @Apellido, EstadoCivil= @EstadoCivil, FechaInscripcion= @FechaInscripcion, FechaNacimiento= @FechaNacimiento, InicioPrestacion= @InicioPrestacion, Nombre= @Nombre, NroDoc= @NroDoc, idObraSocial= @idObraSocial, Observaciones= @Observaciones, idOcupacion= @idOcupacion, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, TopeAtenciones= @TopeAtenciones, idEmpleado= @idEmpleado, importe= @importe WHERE id= @id
+DELETE FROM AlergiaXAfiliado WHERE  idAfiliado= @idAfiliado
+DELETE FROM EnfermedadXAfiliado WHERE  idAfiliado= @idAfiliado
+INSERT INTO EnfermedadXAfiliado (idEnfermedad, idAfiliado) VALUES (@idEnfermedad, @idAfiliado)
+INSERT INTO EnfermedadXAfiliado (idEnfermedad, idAfiliado) VALUES (@idEnfermedad, @idAfiliado)
+DELETE FROM MedicamentoXAfiliado WHERE  idAfiliado= @idAfiliado
+INSERT INTO MedicamentoXAfiliado (idMedicamento, idAfiliado) VALUES (@idMedicamento, @idAfiliado)
+DELETE FROM Telefono WHERE  idOwner= @idOwner AND tipoOwner= @tipoOwner
+INSERT INTO Telefono (id, numero, idTipoTelefono, observaciones, idOwner, tipoOwner) VALUES (@id, @numero, @idTipoTelefono, @observaciones, @idOwner, @tipoOwner)
+19/03/2010 08:52:20 p.m. Se termino la transaccion
+19/03/2010 09:52:05 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO AreaProtegida (id, ApellidoResp, idEmpleado, idDireccion, FechaInscripcion, InicioPrestacion, NombreArea, NombreResp, NroDocResp, Observaciones, TipoDocResp, TopeAtenciones, Importe) VALUES (@id, @ApellidoResp, @idEmpleado, @idDireccion, @FechaInscripcion, @InicioPrestacion, @NombreArea, @NombreResp, @NroDocResp, @Observaciones, @TipoDocResp, @TopeAtenciones, @Importe)
+INSERT INTO Telefono (id, numero, idTipoTelefono, observaciones, idOwner, tipoOwner) VALUES (@id, @numero, @idTipoTelefono, @observaciones, @idOwner, @tipoOwner)
+19/03/2010 09:52:05 p.m. Se termino la transaccion
+24/05/2010 10:13:06 a.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO AtencionB (Id, idDespachador, Fecha, HoraLlamada, NroIncidente, NroIncidenteInterno, SalidaPreInspeccion, LlegadaPreinspeccion, SalidaDotacion, QTH, VL, Cronica, Observaciones, DescripcionPerjuiciosCampo, MaterialesCombustibles, DescripcionPerjuiciosVivienda, AccesoPor, Referencias, Aseguradora, DescripcionMaterial, EquiposEspeciales, Poliza, AmbientesAfectadosVivienda, HectareasAfectadasCampo, PoliciaACargo, PoliciaCantidad, PoliciaMovil, SEMedico, SECentroAsistencial, SEMedicoMP, SEAmbulancias, idInstalacionElectrica, idInstalacionGas, Estado, idSintoma, idDireccion) VALUES (@Id, @idDespachador, @Fecha, @HoraLlamada, @NroIncidente, @NroIncidenteInterno, @SalidaPreInspeccion, @LlegadaPreinspeccion, @SalidaDotacion, @QTH, @VL, @Cronica, @Observaciones, @DescripcionPerjuiciosCampo, @MaterialesCombustibles, @DescripcionPerjuiciosVivienda, @AccesoPor, @Referencias, @Aseguradora, @DescripcionMaterial, @EquiposEspeciales, @Poliza, @AmbientesAfectadosVivienda, @HectareasAfectadasCampo, @PoliciaACargo, @PoliciaCantidad, @PoliciaMovil, @SEMedico, @SECentroAsistencial, @SEMedicoMP, @SEAmbulancias, @idInstalacionElectrica, @idInstalacionGas, @Estado, @idSintoma, @idDireccion)
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Involucrado (idSiniestro, Apellido, FechaNacimiento, id, Nombre, NroDoc, Observaciones, Sexo, TipoDoc, idDireccion, esEdad, idTipoRelacion, DescripcionRelacion, Telefono) VALUES (@idSiniestro, @Apellido, @FechaNacimiento, @id, @Nombre, @NroDoc, @Observaciones, @Sexo, @TipoDoc, @idDireccion, @esEdad, @idTipoRelacion, @DescripcionRelacion, @Telefono)
+UPDATE Vehiculo SET marca= @marca, patente= @patente, modelo= @modelo, tipo= @tipo, perjuicios= @perjuicios, color= @color, idSiniestro= @idSiniestro WHERE id= @id
+24/05/2010 10:13:06 a.m. Se termino la transaccion
+24/05/2010 10:13:24 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Vehiculo SET marca= @marca, patente= @patente, modelo= @modelo, tipo= @tipo, perjuicios= @perjuicios, color= @color, idSiniestro= @idSiniestro WHERE id= @id
+24/05/2010 10:13:24 a.m. Se termino la transaccion
+24/05/2010 10:13:24 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+24/05/2010 10:13:25 a.m. Se termino la transaccion
+24/05/2010 10:13:28 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Vehiculo SET marca= @marca, patente= @patente, modelo= @modelo, tipo= @tipo, perjuicios= @perjuicios, color= @color, idSiniestro= @idSiniestro WHERE id= @id
+24/05/2010 10:13:28 a.m. Se termino la transaccion
+24/05/2010 10:13:28 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+24/05/2010 10:13:28 a.m. Se termino la transaccion
+24/05/2010 10:13:40 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Vehiculo SET marca= @marca, patente= @patente, modelo= @modelo, tipo= @tipo, perjuicios= @perjuicios, color= @color, idSiniestro= @idSiniestro WHERE id= @id
+24/05/2010 10:13:40 a.m. Se termino la transaccion
+24/05/2010 10:13:40 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+24/05/2010 10:13:40 a.m. Se termino la transaccion
+24/05/2010 10:14:11 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Vehiculo SET marca= @marca, patente= @patente, modelo= @modelo, tipo= @tipo, perjuicios= @perjuicios, color= @color, idSiniestro= @idSiniestro WHERE id= @id
+24/05/2010 10:14:11 a.m. Se termino la transaccion
+24/05/2010 10:14:11 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+24/05/2010 10:14:11 a.m. Se termino la transaccion
+24/05/2010 10:14:17 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE AtencionB SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, SalidaPreInspeccion= @SalidaPreInspeccion, LlegadaPreinspeccion= @LlegadaPreinspeccion, SalidaDotacion= @SalidaDotacion, QTH= @QTH, VL= @VL, Cronica= @Cronica, Observaciones= @Observaciones, DescripcionPerjuiciosCampo= @DescripcionPerjuiciosCampo, MaterialesCombustibles= @MaterialesCombustibles, DescripcionPerjuiciosVivienda= @DescripcionPerjuiciosVivienda, AccesoPor= @AccesoPor, Referencias= @Referencias, Aseguradora= @Aseguradora, DescripcionMaterial= @DescripcionMaterial, EquiposEspeciales= @EquiposEspeciales, Poliza= @Poliza, AmbientesAfectadosVivienda= @AmbientesAfectadosVivienda, HectareasAfectadasCampo= @HectareasAfectadasCampo, PoliciaACargo= @PoliciaACargo, PoliciaCantidad= @PoliciaCantidad, PoliciaMovil= @PoliciaMovil, SEMedico= @SEMedico, SECentroAsistencial= @SECentroAsistencial, SEMedicoMP= @SEMedicoMP, SEAmbulancias= @SEAmbulancias, idInstalacionElectrica= @idInstalacionElectrica, idInstalacionGas= @idInstalacionGas, Estado= @Estado, idSintoma= @idSintoma WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Involucrado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Nombre= @Nombre, NroDoc= @NroDoc, Observaciones= @Observaciones, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, esEdad= @esEdad, idTipoRelacion= @idTipoRelacion, DescripcionRelacion= @DescripcionRelacion, Telefono= @Telefono WHERE id= @id
+UPDATE Vehiculo SET marca= @marca, patente= @patente, modelo= @modelo, tipo= @tipo, perjuicios= @perjuicios, color= @color, idSiniestro= @idSiniestro WHERE id= @id
+24/05/2010 10:14:17 a.m. Se termino la transaccion
+24/05/2010 10:14:17 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+24/05/2010 10:14:17 a.m. Se termino la transaccion
+28/05/2010 09:33:36 a.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Empleado (id, Apellido, FechaNacimiento, Login, Nombre, NroDoc, Pass, TipoDoc, Permisos, EsSuperUsuario, mp, eliminado, idDireccion) VALUES (@id, @Apellido, @FechaNacimiento, @Login, @Nombre, @NroDoc, @Pass, @TipoDoc, @Permisos, @EsSuperUsuario, @mp, @eliminado, @idDireccion)
+INSERT INTO Telefono (id, numero, idTipoTelefono, observaciones, idOwner, tipoOwner) VALUES (@id, @numero, @idTipoTelefono, @observaciones, @idOwner, @tipoOwner)
+INSERT INTO CargoXEmpleado (idCargo, idEmpleado) VALUES (@idCargo, @idEmpleado)
+28/05/2010 09:33:36 a.m. Se termino la transaccion
+28/05/2010 09:34:02 a.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Atencion (Id, NroIncidente, NroIncidenteInterno, idDespachador, Fecha, HoraLlamada, QTH, VL, idSintoma, idTelefono, idDireccion, idServicioEmergencia, Operador, Diagnostico, Observaciones, Estado, idTipoCodigo, copago, abonado, condIva, servicio, montoiva) VALUES (@Id, @NroIncidente, @NroIncidenteInterno, @idDespachador, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @idTelefono, @idDireccion, @idServicioEmergencia, @Operador, @Diagnostico, @Observaciones, @Estado, @idTipoCodigo, @copago, @abonado, @condIva, @servicio, @montoiva)
+28/05/2010 09:34:02 a.m. Se termino la transaccion
+28/05/2010 09:34:11 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idTelefono= @idTelefono, telefonoauxiliar= @telefonoauxiliar, idServicioEmergencia= @idServicioEmergencia, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, idTipoCodigo= @idTipoCodigo, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+28/05/2010 09:34:11 a.m. Se termino la transaccion
+28/05/2010 09:34:11 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+28/05/2010 09:34:11 a.m. Se termino la transaccion
+28/05/2010 09:34:28 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idTelefono= @idTelefono, telefonoauxiliar= @telefonoauxiliar, idServicioEmergencia= @idServicioEmergencia, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, idTipoCodigo= @idTipoCodigo, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+28/05/2010 09:34:28 a.m. Se termino la transaccion
+28/05/2010 09:34:28 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+28/05/2010 09:34:28 a.m. Se termino la transaccion
+28/05/2010 09:35:36 a.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO AfiliadoExterno (Apellido, FechaNacimiento, id, Nombre, NroDoc, idObraSocial, Observaciones, Sexo, TipoDoc, TopeAtenciones, NroAfiliado, idDireccion, esEdad) VALUES (@Apellido, @FechaNacimiento, @id, @Nombre, @NroDoc, @idObraSocial, @Observaciones, @Sexo, @TipoDoc, @TopeAtenciones, @NroAfiliado, @idDireccion, @esEdad)
+INSERT INTO AfiliadoExternoXServicioEmergencia (idAfiliadoExterno, idServicioEmergencia) VALUES (@idAfiliadoExterno, @idServicioEmergencia)
+28/05/2010 09:35:36 a.m. Se termino la transaccion
+28/05/2010 09:36:00 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoExterno= @idAfiliadoExterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idTelefono= @idTelefono, telefonoauxiliar= @telefonoauxiliar, idServicioEmergencia= @idServicioEmergencia, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, idTipoCodigo= @idTipoCodigo, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+28/05/2010 09:36:00 a.m. Se termino la transaccion
+28/05/2010 09:36:00 a.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+28/05/2010 09:36:00 a.m. Se termino la transaccion
+28/05/2010 09:36:41 a.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Atencion (Id, NroIncidente, NroIncidenteInterno, idDespachador, Fecha, HoraLlamada, QTH, VL, idSintoma, idTelefono, idDireccion, idServicioEmergencia, Operador, Diagnostico, Observaciones, Estado, idTipoCodigo, copago, abonado, condIva, servicio, montoiva) VALUES (@Id, @NroIncidente, @NroIncidenteInterno, @idDespachador, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @idTelefono, @idDireccion, @idServicioEmergencia, @Operador, @Diagnostico, @Observaciones, @Estado, @idTipoCodigo, @copago, @abonado, @condIva, @servicio, @montoiva)
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+28/05/2010 09:36:41 a.m. Se termino la transaccion
+28/05/2010 09:37:35 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idTelefono= @idTelefono, telefonoauxiliar= @telefonoauxiliar, idServicioEmergencia= @idServicioEmergencia, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, idTipoCodigo= @idTipoCodigo, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+28/05/2010 09:37:35 a.m. Se termino la transaccion
+28/05/2010 09:37:35 a.m. Se inicio una transaccion
+28/05/2010 09:37:35 a.m. Se termino la transaccion
+08/10/2010 01:49:09 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, idTelefono= @idTelefono, telefonoauxiliar= @telefonoauxiliar, idServicioEmergencia= @idServicioEmergencia, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, idTipoCodigo= @idTipoCodigo, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+08/10/2010 01:49:09 p.m. Se termino la transaccion
+08/10/2010 01:49:09 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+08/10/2010 01:49:09 p.m. Se termino la transaccion
+08/10/2010 02:59:28 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Atencion (Id, NroIncidente, NroIncidenteInterno, idDespachador, Fecha, HoraLlamada, QTH, VL, idSintoma, telefonoAuxiliar, idDireccion, Operador, Diagnostico, Observaciones, Estado, idTipoCodigo, copago, abonado, condIva, servicio, montoiva) VALUES (@Id, @NroIncidente, @NroIncidenteInterno, @idDespachador, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @telefonoAuxiliar, @idDireccion, @Operador, @Diagnostico, @Observaciones, @Estado, @idTipoCodigo, @copago, @abonado, @condIva, @servicio, @montoiva)
+08/10/2010 02:59:28 p.m. Se termino la transaccion
+08/10/2010 03:15:37 p.m. Se inicio una transaccion
+UPDATE Empleado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Login= @Login, Nombre= @Nombre, NroDoc= @NroDoc, Pass= @Pass, TipoDoc= @TipoDoc, Permisos= @Permisos, mp= @mp WHERE id= @id
+DELETE FROM Telefono WHERE  idOwner= @idOwner AND tipoOwner= @tipoOwner
+INSERT INTO Telefono (id, numero, idTipoTelefono, observaciones, idOwner, tipoOwner) VALUES (@id, @numero, @idTipoTelefono, @observaciones, @idOwner, @tipoOwner)
+DELETE FROM CargoXEmpleado WHERE  idEmpleado= @idEmpleado
+INSERT INTO CargoXEmpleado (idCargo, idEmpleado) VALUES (@idCargo, @idEmpleado)
+INSERT INTO CargoXEmpleado (idCargo, idEmpleado) VALUES (@idCargo, @idEmpleado)
+INSERT INTO CargoXEmpleado (idCargo, idEmpleado) VALUES (@idCargo, @idEmpleado)
+INSERT INTO CargoXEmpleado (idCargo, idEmpleado) VALUES (@idCargo, @idEmpleado)
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+08/10/2010 03:15:37 p.m. Se termino la transaccion
+17/03/2011 11:05:01 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Atencion (Id, NroIncidente, NroIncidenteInterno, idDespachador, Fecha, HoraLlamada, QTH, VL, idSintoma, telefonoAuxiliar, idDireccion, Operador, Diagnostico, Observaciones, Estado, idTipoCodigo, copago, abonado, condIva, servicio, montoiva) VALUES (@Id, @NroIncidente, @NroIncidenteInterno, @idDespachador, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @telefonoAuxiliar, @idDireccion, @Operador, @Diagnostico, @Observaciones, @Estado, @idTipoCodigo, @copago, @abonado, @condIva, @servicio, @montoiva)
+17/03/2011 11:05:01 p.m. Se termino la transaccion
+17/03/2011 11:05:54 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoPropio= @idAfiliadoPropio, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, idTipoCodigo= @idTipoCodigo, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+17/03/2011 11:05:54 p.m. Se termino la transaccion
+17/03/2011 11:05:54 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+17/03/2011 11:05:54 p.m. Se termino la transaccion
+17/03/2011 11:06:33 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio, piso= @piso, depto= @depto, torre= @torre, entrecalles= @entrecalles WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, NroIncidenteInterno= @NroIncidenteInterno, idAfiliadoPropio= @idAfiliadoPropio, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, idTipoCodigo= @idTipoCodigo, copago= @copago, abonado= @abonado, condIva= @condIva, servicio= @servicio, montoiva= @montoiva, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+17/03/2011 11:06:33 p.m. Se termino la transaccion
+17/03/2011 11:06:33 p.m. Se inicio una transaccion
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+INSERT INTO DetalleSeguimiento (ValorNuevo, ValorAnterior, idEmpleado, Campo, Fecha, Hora, idAtencion) VALUES (@ValorNuevo, @ValorAnterior, @idEmpleado, @Campo, @Fecha, @Hora, @idAtencion)
+17/03/2011 11:06:33 p.m. Se termino la transaccion
+20/03/2011 03:00:01 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Atencion (Id, NroIncidente, NroIncidenteInterno, idDespachador, Fecha, HoraLlamada, QTH, VL, idSintoma, idTelefono, idDireccion, idObraSocial, Operador, Diagnostico, Observaciones, Estado, idTipoCodigo, copago, abonado, condIva, servicio, montoiva) VALUES (@Id, @NroIncidente, @NroIncidenteInterno, @idDespachador, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @idTelefono, @idDireccion, @idObraSocial, @Operador, @Diagnostico, @Observaciones, @Estado, @idTipoCodigo, @copago, @abonado, @condIva, @servicio, @montoiva)
+20/03/2011 03:00:01 p.m. Se termino la transaccion
+20/03/2011 03:43:11 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Atencion (Id, NroIncidente, NroIncidenteInterno, idDespachador, Fecha, HoraLlamada, QTH, VL, idSintoma, idTelefono, idDireccion, idObraSocial, Operador, Diagnostico, Observaciones, Estado, idTipoCodigo, copago, abonado, condIva, servicio, montoiva) VALUES (@Id, @NroIncidente, @NroIncidenteInterno, @idDespachador, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @idTelefono, @idDireccion, @idObraSocial, @Operador, @Diagnostico, @Observaciones, @Estado, @idTipoCodigo, @copago, @abonado, @condIva, @servicio, @montoiva)
+20/03/2011 03:43:11 p.m. Se termino la transaccion
+20/03/2011 03:49:46 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio, piso, depto, torre, entrecalles) VALUES (@id, @calle, @nro, @idBarrio, @piso, @depto, @torre, @entrecalles)
+INSERT INTO Atencion (Id, NroIncidente, NroIncidenteInterno, idDespachador, Fecha, HoraLlamada, QTH, VL, idSintoma, idTelefono, idDireccion, idAreaProtegida, Operador, Diagnostico, Observaciones, Estado, idTipoCodigo, copago, abonado, condIva, servicio, montoiva) VALUES (@Id, @NroIncidente, @NroIncidenteInterno, @idDespachador, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @idTelefono, @idDireccion, @idAreaProtegida, @Operador, @Diagnostico, @Observaciones, @Estado, @idTipoCodigo, @copago, @abonado, @condIva, @servicio, @montoiva)
+20/03/2011 03:49:46 p.m. Se termino la transaccion

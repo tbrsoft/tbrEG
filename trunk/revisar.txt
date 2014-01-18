@@ -1,0 +1,71 @@
+msado27 y msxml3
+
+
+IMPLEMENTAR ELIMINAR!!!
+
+
+en frmConfiguracion cuando elija fondo estaria bueno que se abra en la carpeta fondos 
+revisar bien lo de las dotaciones, ver eliminar, modificar cuando ya esta referenciada etc
+preguntar si muestro la dotacion en la consulta de atenciones
+num de afiliado externo no se ve en la consulta, ver si se repite
+ver q no se midifique la fecha de inscripcion
+
+ver posibilidad de importar enfermedades, etc...
+no se actualiza listado de afiliados despues de restaurar
+
+arreglado -> vl no se actualiza en frmConsultaatenciones, estaba comentado, ver porq
+
+en frmatencion, no funciona el textbox de seleccion de sintoma, despues de seleccionar en el combo del lado, terminar de arreglar
+
+ver el tema de q un empleado empiece una atencion y la termine otro
+
+en abmequipos implementar equipossimilares, implementar exportar, o sacarlo...
+
+frmatencion permitir ver el detalle de las atenciones desde la lista de atenciones.
+
+en registrarcobro, cuando paga varias cuotas de años distintos sale un solo año, revisar
+agregar la direccion tmb
+
+en frmPermisos el resize da problemas, arreglar e tema de la seleccion multiple
+
+revisar taborder de: 
+	frmAbmEquipo
+	fraAtencion
+	fraConfig
+	fraFiltroAtenciones
+
+ver que el vl no puede ser antes del qth
+
+agregar la funcion imprimir al lvwconsulta, arreglar el tema de los anchos de columna en word
+
+en frmatencion, preguntar si desea salir solo si hizo cambios
+
+ver en form consultagenerico el tema del canmodify y can delete
+
+ver de hacer una lista de operadores (los q llaman por atencion)
+
+ver el tema del estado en los moviles
+
+marcar un equipo responsable por cada emergencia
+
+ya verifica q en la coleccion de af a cargo no haya un id repetido ni q en la bd tampoco este, ver si es suficiente con eso
+
+ver bien el tema del filtro por fecha de atencionmanager si elijo mes capaz tengo q elegir año tmb
+
+ver si en filtrar del lvwconsulta se puede filtrar con la misma cadena mas de un campo, sea buscar subcadenas
+
+se le puede poner a los botones en frmAtencion los iconos de cada tipo de destino de la atencion
+
+hacer la funcion validar en todos los form q falten, y validar los txt tmb
+
+completar funcion textboxvalidado
+
+si se mueve la barra a un costado no se ve el icono de atenciones pendientes
+
+
+------------------------Mejoras de Eficiencia, rendimiento, etc...---------------------
+
+ver que pasa si se llama a refrescar en form_Activate
+
+fijarse si que se puede hacer para pedir q las colecciones se carguen solo cuando se necesite el contenido
+me parece q en el newenum seria un buen lugar

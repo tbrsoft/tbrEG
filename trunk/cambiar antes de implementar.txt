@@ -1,0 +1,5 @@
+enfrmregistrar cobro descomentar las lineas q  registrar el pago
+
+vaciar base de datos
+
+DESCOMENTAR LA LINEA DE LICENCIA!!!

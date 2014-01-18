@@ -1,0 +1,232 @@
+VERSION 5.00
+Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCTL.OCX"
+Begin VB.PropertyPage ppTvwNodos 
+   Caption         =   "Nodos"
+   ClientHeight    =   3495
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   5925
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   3495
+   ScaleWidth      =   5925
+   Begin VB.CommandButton cmdQuitar 
+      Caption         =   "Quitar"
+      Enabled         =   0   'False
+      Height          =   615
+      Left            =   3960
+      TabIndex        =   8
+      Top             =   1560
+      Width           =   855
+   End
+   Begin VB.TextBox txtCampoTexto 
+      Height          =   285
+      Left            =   1440
+      TabIndex        =   7
+      Top             =   2760
+      Width           =   2415
+   End
+   Begin VB.TextBox txtCampoKey 
+      Height          =   285
+      Left            =   1440
+      TabIndex        =   5
+      Top             =   2400
+      Width           =   2415
+   End
+   Begin VB.TextBox txtCampoColeccion 
+      Height          =   285
+      Left            =   1440
+      TabIndex        =   4
+      Top             =   3120
+      Width           =   2415
+   End
+   Begin VB.CommandButton cmdAgregar 
+      Caption         =   "Agregar"
+      Height          =   615
+      Left            =   3960
+      TabIndex        =   3
+      Top             =   120
+      Width           =   855
+   End
+   Begin VB.CommandButton cmdEditar 
+      Caption         =   "Editar"
+      Enabled         =   0   'False
+      Height          =   615
+      Left            =   3960
+      TabIndex        =   2
+      Top             =   840
+      Width           =   855
+   End
+   Begin VB.CommandButton cmdAceptar 
+      Caption         =   "Aceptar"
+      Enabled         =   0   'False
+      Height          =   495
+      Left            =   3960
+      TabIndex        =   1
+      Top             =   2400
+      Width           =   855
+   End
+   Begin VB.CommandButton cmdCancelar 
+      Caption         =   "Cancelar"
+      Enabled         =   0   'False
+      Height          =   495
+      Left            =   3960
+      TabIndex        =   0
+      Top             =   3000
+      Width           =   855
+   End
+   Begin MSComctlLib.TreeView tvw 
+      Height          =   2175
+      Left            =   120
+      TabIndex        =   6
+      Top             =   120
+      Width           =   3735
+      _ExtentX        =   6588
+      _ExtentY        =   3836
+      _Version        =   393217
+      Indentation     =   529
+      LineStyle       =   1
+      Style           =   7
+      Appearance      =   1
+   End
+   Begin VB.Label N 
+      Caption         =   "Campo Texto:"
+      Height          =   255
+      Left            =   120
+      TabIndex        =   12
+      Top             =   2760
+      Width           =   1095
+   End
+   Begin VB.Label Label3 
+      Caption         =   "Campo Clave:"
+      Height          =   255
+      Left            =   120
+      TabIndex        =   11
+      Top             =   2400
+      Width           =   1095
+   End
+   Begin VB.Label Label1 
+      Caption         =   "Campo Coleccion:"
+      Height          =   255
+      Left            =   120
+      TabIndex        =   10
+      Top             =   3120
+      Width           =   1335
+   End
+   Begin VB.Label Label2 
+      Caption         =   "agregar las otras propiedades(bold, etc.)"
+      Height          =   255
+      Left            =   240
+      TabIndex        =   9
+      Top             =   3600
+      Width           =   3615
+   End
+End
+Attribute VB_Name = "ppTvwNodos"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Private mLastNod As TVNode
+Private mNodoActual As TVNode
+
+Private Sub cmdAceptar_Click()
+    mNodoActual.ChildCollectionField = txtCampoColeccion
+    mNodoActual.IdField = txtCampoKey
+    mNodoActual.TextField = txtCampoTexto
+    
+    cmdAceptar.Enabled = False
+    cmdCancelar.Enabled = False
+    cmdEditar.Enabled = True
+    cmdQuitar.Enabled = True
+    Changed = True
+End Sub
+
+Private Sub cmdAgregar_Click()
+    'Static id As Long
+    Dim id As Long
+    Dim nod As Node
+    Dim tvNod As New TVNode
+    
+    id = id + 1
+    If tvw.Nodes.Count = 0 Then
+        'Set nod = tvw.Nodes.Add(, , "k" + Str(id), "<No Establecido>")
+        Set nod = tvw.Nodes.Add(, , "k 0", "<No Establecido>")
+        id = 0
+    Else
+        Set nod = tvw.Nodes.Add("k" + Str(mLastNod.id), tvwChild, "k" + Str(mLastNod.id + 1), "<No Establecido>")
+        id = mLastNod.id + 1
+        Set mLastNod.Child = tvNod
+    End If
+    nod.Expanded = True
+    
+    tvNod.BackColor = vbWhite
+    tvNod.Bold = False
+    tvNod.Expanded = False
+    tvNod.ForeColor = vbBlack
+    tvNod.IdField = "id"
+    tvNod.TextField = "<No establecido>"
+    tvNod.id = id
+    Set mLastNod = tvNod
+    
+    Set nod.Tag = tvNod
+'    cmdAceptar
+'    cmdCancelar
+    cmdEditar.Enabled = True
+    cmdQuitar.Enabled = True
+    Changed = True
+End Sub
+
+Private Sub cmdCancelar_Click()
+    cmdAceptar.Enabled = False
+    cmdCancelar.Enabled = False
+    cmdEditar.Enabled = True
+    cmdQuitar.Enabled = True
+End Sub
+
+Private Sub cmdEditar_Click()
+    cmdAceptar.Enabled = True
+    cmdCancelar.Enabled = True
+    cmdEditar.Enabled = False
+    cmdQuitar.Enabled = False
+End Sub
+
+Private Sub PropertyPage_ApplyChanges()
+    Dim t As TreeViewConsulta
+    Set t = SelectedControls(0)
+    Dim nod As Node
+    t.Nodos.Clear
+    For Each nod In tvw.Nodes
+        t.Nodos.AddItem nod.Tag
+    Next
+End Sub
+
+Private Sub PropertyPage_SelectionChanged()
+    Dim t As TreeViewConsulta
+    Set t = SelectedControls(0)
+    Dim first As Boolean
+    Dim lastKey As String
+    first = True
+    Dim nod As TVNode
+    tvw.Nodes.Clear
+    For Each nod In t.Nodos
+        cmdEditar.Enabled = True
+        cmdQuitar.Enabled = True
+        If first Then
+            Set tvw.Nodes.Add(, , "k" + Str(nod.id), nod.TextField).Tag = nod
+            tvw.Nodes("k" + Str(nod.id)).Expanded = True
+            first = False
+        Else
+            Set tvw.Nodes.Add(lastKey, tvwChild, "k" + Str(nod.id), nod.TextField).Tag = nod
+            tvw.Nodes("k" + Str(nod.id)).Expanded = True
+        End If
+        lastKey = "k" + Str(nod.id)
+        Set mLastNod = nod 'sirve en agregar
+    Next
+End Sub
+
+Private Sub tvw_NodeClick(ByVal Node As MSComctlLib.Node)
+    Set mNodoActual = Node.Tag
+    txtCampoTexto = mNodoActual.TextField
+    txtCampoKey = mNodoActual.IdField
+    txtCampoColeccion = mNodoActual.ChildCollectionField
+End Sub

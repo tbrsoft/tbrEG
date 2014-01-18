@@ -1,0 +1,8 @@
+VBGROUP 5.0
+StartupProject=ALCemi\ALCemi.vbp
+Project=ControlesUsuario\ListViewConsultaCtl.vbp
+Project=BLCemi\BLCemi.vbp
+Project=DataBaseLayer\DataBaseLayer.vbp
+Project=Config\tbrConfig.vbp
+Project=tbrNet\tbrNet.vbp
+Project=tbrCamposImpresion\tbrCamposImpresion.vbp

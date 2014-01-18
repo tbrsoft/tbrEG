@@ -1,0 +1,204 @@
+16/07/2008 05:43:35 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+UPDATE Afiliado SET Apellido= @Apellido, EstadoCivil= @EstadoCivil, FechaInscripcion= @FechaInscripcion, FechaNacimiento= @FechaNacimiento, InicioPrestacion= @InicioPrestacion, Nombre= @Nombre, NroDoc= @NroDoc, idObraSocial= @idObraSocial, Observaciones= @Observaciones, idOcupacion= @idOcupacion, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, TopeAtenciones= @TopeAtenciones, idEmpleado= @idEmpleado, importe= @importe WHERE id= @id
+DELETE FROM AlergiaXAfiliado WHERE  idAfiliado= @idAfiliado
+DELETE FROM EnfermedadXAfiliado WHERE  idAfiliado= @idAfiliado
+DELETE FROM MedicamentoXAfiliado WHERE  idAfiliado= @idAfiliado
+DELETE FROM Telefono WHERE  idOwner= @idOwner AND tipoOwner= @tipoOwner
+16/07/2008 05:43:35 p.m. Se termino la transaccion
+16/07/2008 05:49:59 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+UPDATE Afiliado SET Apellido= @Apellido, EstadoCivil= @EstadoCivil, FechaInscripcion= @FechaInscripcion, FechaNacimiento= @FechaNacimiento, InicioPrestacion= @InicioPrestacion, Nombre= @Nombre, NroDoc= @NroDoc, idObraSocial= @idObraSocial, Observaciones= @Observaciones, idOcupacion= @idOcupacion, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, TopeAtenciones= @TopeAtenciones, idEmpleado= @idEmpleado, importe= @importe WHERE id= @id
+DELETE FROM AlergiaXAfiliado WHERE  idAfiliado= @idAfiliado
+DELETE FROM EnfermedadXAfiliado WHERE  idAfiliado= @idAfiliado
+DELETE FROM MedicamentoXAfiliado WHERE  idAfiliado= @idAfiliado
+DELETE FROM Telefono WHERE  idOwner= @idOwner AND tipoOwner= @tipoOwner
+INSERT INTO Telefono (id, numero, idTipoTelefono, observaciones, idOwner, tipoOwner) VALUES (@id, @numero, @idTipoTelefono, @observaciones, @idOwner, @tipoOwner)
+16/07/2008 05:50:00 p.m. Se termino la transaccion
+16/07/2008 05:51:55 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio) VALUES (@id, @calle, @nro, @idBarrio)
+INSERT INTO Atencion (Id, NroIncidente, idDespachador, idAfiliadoPropio, Fecha, HoraLlamada, QTH, VL, idSintoma, idTelefono, idDireccion, Operador, Diagnostico, Observaciones, Estado) VALUES (@Id, @NroIncidente, @idDespachador, @idAfiliadoPropio, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @idTelefono, @idDireccion, @Operador, @Diagnostico, @Observaciones, @Estado)
+16/07/2008 05:51:55 p.m. Se termino la transaccion
+16/07/2008 05:51:58 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, idAfiliadoPropio= @idAfiliadoPropio, Fecha= @Fecha, HoraLlamada= @HoraLlamada, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+16/07/2008 05:51:58 p.m. Se termino la transaccion
+16/07/2008 05:52:00 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, idAfiliadoPropio= @idAfiliadoPropio, Fecha= @Fecha, HoraLlamada= @HoraLlamada, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+16/07/2008 05:52:00 p.m. Se termino la transaccion
+18/07/2008 09:44:20 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+UPDATE Afiliado SET Apellido= @Apellido, EstadoCivil= @EstadoCivil, FechaInscripcion= @FechaInscripcion, FechaNacimiento= @FechaNacimiento, InicioPrestacion= @InicioPrestacion, Nombre= @Nombre, NroDoc= @NroDoc, idObraSocial= @idObraSocial, Observaciones= @Observaciones, idOcupacion= @idOcupacion, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, TopeAtenciones= @TopeAtenciones, idEmpleado= @idEmpleado, importe= @importe WHERE id= @id
+DELETE FROM AlergiaXAfiliado WHERE  idAfiliado= @idAfiliado
+DELETE FROM EnfermedadXAfiliado WHERE  idAfiliado= @idAfiliado
+DELETE FROM MedicamentoXAfiliado WHERE  idAfiliado= @idAfiliado
+DELETE FROM Telefono WHERE  idOwner= @idOwner AND tipoOwner= @tipoOwner
+INSERT INTO Telefono (id, numero, idTipoTelefono, observaciones, idOwner, tipoOwner) VALUES (@id, @numero, @idTipoTelefono, @observaciones, @idOwner, @tipoOwner)
+18/07/2008 09:44:20 a.m. Se termino la transaccion
+17/10/2008 09:21:10 a.m. Se inicio una transaccion
+UPDATE Empleado SET Apellido= @Apellido, FechaNacimiento= @FechaNacimiento, Login= @Login, Nombre= @Nombre, NroDoc= @NroDoc, Pass= @Pass, TipoDoc= @TipoDoc, Permisos= @Permisos, mp= @mp WHERE id= @id
+DELETE FROM Telefono WHERE  idOwner= @idOwner AND tipoOwner= @tipoOwner
+INSERT INTO Telefono (id, numero, idTipoTelefono, observaciones, idOwner, tipoOwner) VALUES (@id, @numero, @idTipoTelefono, @observaciones, @idOwner, @tipoOwner)
+DELETE FROM CargoXEmpleado WHERE  idEmpleado= @idEmpleado
+INSERT INTO CargoXEmpleado (idCargo, idEmpleado) VALUES (@idCargo, @idEmpleado)
+INSERT INTO CargoXEmpleado (idCargo, idEmpleado) VALUES (@idCargo, @idEmpleado)
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+17/10/2008 09:21:10 a.m. Se termino la transaccion
+17/10/2008 09:21:58 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+UPDATE Afiliado SET Apellido= @Apellido, EstadoCivil= @EstadoCivil, FechaInscripcion= @FechaInscripcion, FechaNacimiento= @FechaNacimiento, InicioPrestacion= @InicioPrestacion, Nombre= @Nombre, NroDoc= @NroDoc, idObraSocial= @idObraSocial, Observaciones= @Observaciones, idOcupacion= @idOcupacion, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, TopeAtenciones= @TopeAtenciones, idEmpleado= @idEmpleado, importe= @importe WHERE id= @id
+DELETE FROM AlergiaXAfiliado WHERE  idAfiliado= @idAfiliado
+DELETE FROM EnfermedadXAfiliado WHERE  idAfiliado= @idAfiliado
+DELETE FROM MedicamentoXAfiliado WHERE  idAfiliado= @idAfiliado
+DELETE FROM Telefono WHERE  idOwner= @idOwner AND tipoOwner= @tipoOwner
+17/10/2008 09:21:58 a.m. Se termino la transaccion
+17/10/2008 09:22:13 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+UPDATE Afiliado SET Apellido= @Apellido, EstadoCivil= @EstadoCivil, FechaInscripcion= @FechaInscripcion, FechaNacimiento= @FechaNacimiento, InicioPrestacion= @InicioPrestacion, Nombre= @Nombre, NroDoc= @NroDoc, idObraSocial= @idObraSocial, Observaciones= @Observaciones, idOcupacion= @idOcupacion, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, TopeAtenciones= @TopeAtenciones, idEmpleado= @idEmpleado, importe= @importe WHERE id= @id
+DELETE FROM AlergiaXAfiliado WHERE  idAfiliado= @idAfiliado
+INSERT INTO AlergiaXAfiliado (idAlergia, idAfiliado) VALUES (@idAlergia, @idAfiliado)
+INSERT INTO AlergiaXAfiliado (idAlergia, idAfiliado) VALUES (@idAlergia, @idAfiliado)
+INSERT INTO AlergiaXAfiliado (idAlergia, idAfiliado) VALUES (@idAlergia, @idAfiliado)
+DELETE FROM EnfermedadXAfiliado WHERE  idAfiliado= @idAfiliado
+INSERT INTO EnfermedadXAfiliado (idEnfermedad, idAfiliado) VALUES (@idEnfermedad, @idAfiliado)
+INSERT INTO EnfermedadXAfiliado (idEnfermedad, idAfiliado) VALUES (@idEnfermedad, @idAfiliado)
+INSERT INTO EnfermedadXAfiliado (idEnfermedad, idAfiliado) VALUES (@idEnfermedad, @idAfiliado)
+DELETE FROM MedicamentoXAfiliado WHERE  idAfiliado= @idAfiliado
+INSERT INTO MedicamentoXAfiliado (idMedicamento, idAfiliado) VALUES (@idMedicamento, @idAfiliado)
+INSERT INTO MedicamentoXAfiliado (idMedicamento, idAfiliado) VALUES (@idMedicamento, @idAfiliado)
+INSERT INTO MedicamentoXAfiliado (idMedicamento, idAfiliado) VALUES (@idMedicamento, @idAfiliado)
+DELETE FROM Telefono WHERE  idOwner= @idOwner AND tipoOwner= @tipoOwner
+17/10/2008 09:22:13 a.m. Se termino la transaccion
+17/10/2008 09:23:03 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+UPDATE Afiliado SET Apellido= @Apellido, EstadoCivil= @EstadoCivil, FechaInscripcion= @FechaInscripcion, FechaNacimiento= @FechaNacimiento, InicioPrestacion= @InicioPrestacion, Nombre= @Nombre, NroDoc= @NroDoc, idObraSocial= @idObraSocial, Observaciones= @Observaciones, idOcupacion= @idOcupacion, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, TopeAtenciones= @TopeAtenciones, idEmpleado= @idEmpleado, importe= @importe WHERE id= @id
+DELETE FROM AlergiaXAfiliado WHERE  idAfiliado= @idAfiliado
+INSERT INTO AlergiaXAfiliado (idAlergia, idAfiliado) VALUES (@idAlergia, @idAfiliado)
+INSERT INTO AlergiaXAfiliado (idAlergia, idAfiliado) VALUES (@idAlergia, @idAfiliado)
+DELETE FROM EnfermedadXAfiliado WHERE  idAfiliado= @idAfiliado
+DELETE FROM MedicamentoXAfiliado WHERE  idAfiliado= @idAfiliado
+INSERT INTO MedicamentoXAfiliado (idMedicamento, idAfiliado) VALUES (@idMedicamento, @idAfiliado)
+DELETE FROM Telefono WHERE  idOwner= @idOwner AND tipoOwner= @tipoOwner
+INSERT INTO Telefono (id, numero, idTipoTelefono, observaciones, idOwner, tipoOwner) VALUES (@id, @numero, @idTipoTelefono, @observaciones, @idOwner, @tipoOwner)
+17/10/2008 09:23:03 a.m. Se termino la transaccion
+17/10/2008 09:23:49 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+UPDATE Afiliado SET Apellido= @Apellido, EstadoCivil= @EstadoCivil, FechaInscripcion= @FechaInscripcion, FechaNacimiento= @FechaNacimiento, InicioPrestacion= @InicioPrestacion, Nombre= @Nombre, NroDoc= @NroDoc, idObraSocial= @idObraSocial, Observaciones= @Observaciones, idOcupacion= @idOcupacion, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, TopeAtenciones= @TopeAtenciones, idEmpleado= @idEmpleado, importe= @importe WHERE id= @id
+DELETE FROM AlergiaXAfiliado WHERE  idAfiliado= @idAfiliado
+INSERT INTO AlergiaXAfiliado (idAlergia, idAfiliado) VALUES (@idAlergia, @idAfiliado)
+INSERT INTO AlergiaXAfiliado (idAlergia, idAfiliado) VALUES (@idAlergia, @idAfiliado)
+DELETE FROM EnfermedadXAfiliado WHERE  idAfiliado= @idAfiliado
+INSERT INTO EnfermedadXAfiliado (idEnfermedad, idAfiliado) VALUES (@idEnfermedad, @idAfiliado)
+INSERT INTO EnfermedadXAfiliado (idEnfermedad, idAfiliado) VALUES (@idEnfermedad, @idAfiliado)
+INSERT INTO EnfermedadXAfiliado (idEnfermedad, idAfiliado) VALUES (@idEnfermedad, @idAfiliado)
+DELETE FROM MedicamentoXAfiliado WHERE  idAfiliado= @idAfiliado
+INSERT INTO MedicamentoXAfiliado (idMedicamento, idAfiliado) VALUES (@idMedicamento, @idAfiliado)
+INSERT INTO MedicamentoXAfiliado (idMedicamento, idAfiliado) VALUES (@idMedicamento, @idAfiliado)
+DELETE FROM Telefono WHERE  idOwner= @idOwner AND tipoOwner= @tipoOwner
+INSERT INTO Telefono (id, numero, idTipoTelefono, observaciones, idOwner, tipoOwner) VALUES (@id, @numero, @idTipoTelefono, @observaciones, @idOwner, @tipoOwner)
+17/10/2008 09:23:49 a.m. Se termino la transaccion
+17/10/2008 09:24:08 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+UPDATE Afiliado SET Apellido= @Apellido, EstadoCivil= @EstadoCivil, FechaInscripcion= @FechaInscripcion, FechaNacimiento= @FechaNacimiento, InicioPrestacion= @InicioPrestacion, Nombre= @Nombre, NroDoc= @NroDoc, idObraSocial= @idObraSocial, Observaciones= @Observaciones, idOcupacion= @idOcupacion, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, TopeAtenciones= @TopeAtenciones, idEmpleado= @idEmpleado, importe= @importe WHERE id= @id
+DELETE FROM AlergiaXAfiliado WHERE  idAfiliado= @idAfiliado
+DELETE FROM EnfermedadXAfiliado WHERE  idAfiliado= @idAfiliado
+DELETE FROM MedicamentoXAfiliado WHERE  idAfiliado= @idAfiliado
+DELETE FROM Telefono WHERE  idOwner= @idOwner AND tipoOwner= @tipoOwner
+INSERT INTO Telefono (id, numero, idTipoTelefono, observaciones, idOwner, tipoOwner) VALUES (@id, @numero, @idTipoTelefono, @observaciones, @idOwner, @tipoOwner)
+17/10/2008 09:24:08 a.m. Se termino la transaccion
+17/10/2008 09:24:28 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+UPDATE Afiliado SET Apellido= @Apellido, EstadoCivil= @EstadoCivil, FechaInscripcion= @FechaInscripcion, FechaNacimiento= @FechaNacimiento, InicioPrestacion= @InicioPrestacion, Nombre= @Nombre, NroDoc= @NroDoc, idObraSocial= @idObraSocial, Observaciones= @Observaciones, idOcupacion= @idOcupacion, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, TopeAtenciones= @TopeAtenciones, idEmpleado= @idEmpleado, importe= @importe WHERE id= @id
+DELETE FROM AlergiaXAfiliado WHERE  idAfiliado= @idAfiliado
+INSERT INTO AlergiaXAfiliado (idAlergia, idAfiliado) VALUES (@idAlergia, @idAfiliado)
+DELETE FROM EnfermedadXAfiliado WHERE  idAfiliado= @idAfiliado
+DELETE FROM MedicamentoXAfiliado WHERE  idAfiliado= @idAfiliado
+INSERT INTO MedicamentoXAfiliado (idMedicamento, idAfiliado) VALUES (@idMedicamento, @idAfiliado)
+DELETE FROM Telefono WHERE  idOwner= @idOwner AND tipoOwner= @tipoOwner
+INSERT INTO Telefono (id, numero, idTipoTelefono, observaciones, idOwner, tipoOwner) VALUES (@id, @numero, @idTipoTelefono, @observaciones, @idOwner, @tipoOwner)
+17/10/2008 09:24:28 a.m. Se termino la transaccion
+17/10/2008 09:24:53 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+UPDATE Afiliado SET Apellido= @Apellido, EstadoCivil= @EstadoCivil, FechaInscripcion= @FechaInscripcion, FechaNacimiento= @FechaNacimiento, InicioPrestacion= @InicioPrestacion, Nombre= @Nombre, NroDoc= @NroDoc, idObraSocial= @idObraSocial, Observaciones= @Observaciones, idOcupacion= @idOcupacion, Sexo= @Sexo, TipoDoc= @TipoDoc, idDireccion= @idDireccion, TopeAtenciones= @TopeAtenciones, idEmpleado= @idEmpleado, importe= @importe WHERE id= @id
+DELETE FROM AlergiaXAfiliado WHERE  idAfiliado= @idAfiliado
+INSERT INTO AlergiaXAfiliado (idAlergia, idAfiliado) VALUES (@idAlergia, @idAfiliado)
+DELETE FROM EnfermedadXAfiliado WHERE  idAfiliado= @idAfiliado
+DELETE FROM MedicamentoXAfiliado WHERE  idAfiliado= @idAfiliado
+INSERT INTO MedicamentoXAfiliado (idMedicamento, idAfiliado) VALUES (@idMedicamento, @idAfiliado)
+DELETE FROM Telefono WHERE  idOwner= @idOwner AND tipoOwner= @tipoOwner
+INSERT INTO Telefono (id, numero, idTipoTelefono, observaciones, idOwner, tipoOwner) VALUES (@id, @numero, @idTipoTelefono, @observaciones, @idOwner, @tipoOwner)
+17/10/2008 09:24:53 a.m. Se termino la transaccion
+24/10/2008 09:22:44 a.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, idAfiliadoPropio= @idAfiliadoPropio, Fecha= @Fecha, HoraLlamada= @HoraLlamada, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+INSERT INTO EquipoXAtencion (idEquipo, idAtencion) VALUES (@idEquipo, @idAtencion)
+24/10/2008 09:22:44 a.m. Se termino la transaccion
+03/01/2009 07:50:56 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio) VALUES (@id, @calle, @nro, @idBarrio)
+INSERT INTO Atencion (Id, NroIncidente, idDespachador, Fecha, HoraLlamada, QTH, VL, idSintoma, telefonoAuxiliar, idDireccion, Operador, Diagnostico, Observaciones, Estado) VALUES (@Id, @NroIncidente, @idDespachador, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @telefonoAuxiliar, @idDireccion, @Operador, @Diagnostico, @Observaciones, @Estado)
+03/01/2009 07:52:18 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio) VALUES (@id, @calle, @nro, @idBarrio)
+INSERT INTO Atencion (Id, NroIncidente, idDespachador, Fecha, HoraLlamada, QTH, VL, idSintoma, telefonoAuxiliar, idDireccion, Operador, Diagnostico, Observaciones, Estado) VALUES (@Id, @NroIncidente, @idDespachador, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @telefonoAuxiliar, @idDireccion, @Operador, @Diagnostico, @Observaciones, @Estado)
+03/01/2009 08:04:47 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio) VALUES (@id, @calle, @nro, @idBarrio)
+INSERT INTO Atencion (Id, NroIncidente, idDespachador, Fecha, HoraLlamada, QTH, VL, idSintoma, telefonoAuxiliar, idDireccion, Operador, Diagnostico, Observaciones, Estado) VALUES (@Id, @NroIncidente, @idDespachador, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @telefonoAuxiliar, @idDireccion, @Operador, @Diagnostico, @Observaciones, @Estado)
+03/01/2009 08:05:06 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio) VALUES (@id, @calle, @nro, @idBarrio)
+INSERT INTO Atencion (Id, NroIncidente, idDespachador, Fecha, HoraLlamada, QTH, VL, idSintoma, telefonoAuxiliar, idDireccion, Operador, Diagnostico, Observaciones, Estado) VALUES (@Id, @NroIncidente, @idDespachador, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @telefonoAuxiliar, @idDireccion, @Operador, @Diagnostico, @Observaciones, @Estado)
+03/01/2009 08:09:14 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio) VALUES (@id, @calle, @nro, @idBarrio)
+INSERT INTO Atencion (Id, NroIncidente, idDespachador, Fecha, HoraLlamada, QTH, VL, idSintoma, telefonoAuxiliar, idDireccion, Operador, Diagnostico, Observaciones, Estado) VALUES (@Id, @NroIncidente, @idDespachador, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @telefonoAuxiliar, @idDireccion, @Operador, @Diagnostico, @Observaciones, @Estado)
+03/01/2009 08:09:14 p.m. Se termino la transaccion
+03/01/2009 08:33:35 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio) VALUES (@id, @calle, @nro, @idBarrio)
+INSERT INTO Atencion (Id, NroIncidente, idDespachador, Fecha, HoraLlamada, QTH, VL, idSintoma, telefonoAuxiliar, idDireccion, Operador, Diagnostico, Observaciones, Estado) VALUES (@Id, @NroIncidente, @idDespachador, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @telefonoAuxiliar, @idDireccion, @Operador, @Diagnostico, @Observaciones, @Estado)
+03/01/2009 08:33:35 p.m. Se termino la transaccion
+03/01/2009 08:37:47 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+03/01/2009 08:37:47 p.m. Se termino la transaccion
+03/01/2009 08:39:02 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+03/01/2009 08:39:02 p.m. Se termino la transaccion
+03/01/2009 08:41:54 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+03/01/2009 08:41:54 p.m. Se termino la transaccion
+03/01/2009 09:45:46 p.m. Se inicio una transaccion
+INSERT INTO Direccion (id, calle, nro, idBarrio) VALUES (@id, @calle, @nro, @idBarrio)
+INSERT INTO Atencion (Id, NroIncidente, idDespachador, Fecha, HoraLlamada, QTH, VL, idSintoma, telefonoAuxiliar, idDireccion, Operador, Diagnostico, Observaciones, Estado) VALUES (@Id, @NroIncidente, @idDespachador, @Fecha, @HoraLlamada, @QTH, @VL, @idSintoma, @telefonoAuxiliar, @idDireccion, @Operador, @Diagnostico, @Observaciones, @Estado)
+03/01/2009 09:45:46 p.m. Se termino la transaccion
+03/01/2009 09:45:52 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+03/01/2009 09:45:52 p.m. Se termino la transaccion
+03/01/2009 09:45:52 p.m. Se inicio una transaccion
+03/01/2009 09:45:52 p.m. Se termino la transaccion
+03/01/2009 09:46:17 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+03/01/2009 09:46:17 p.m. Se termino la transaccion
+03/01/2009 09:46:17 p.m. Se inicio una transaccion
+03/01/2009 09:46:17 p.m. Se termino la transaccion
+03/01/2009 09:46:47 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+03/01/2009 09:46:47 p.m. Se termino la transaccion
+03/01/2009 09:49:10 p.m. Se inicio una transaccion
+UPDATE Direccion SET calle= @calle, nro= @nro, idBarrio= @idBarrio WHERE id= @id
+UPDATE Atencion SET NroIncidente= @NroIncidente, QTH= @QTH, VL= @VL, idSintoma= @idSintoma, Operador= @Operador, Diagnostico= @Diagnostico, Observaciones= @Observaciones, Estado= @Estado WHERE Id= @Id
+DELETE FROM EquipoXAtencion WHERE  idAtencion= @idAtencion
+03/01/2009 09:49:10 p.m. Se termino la transaccion
+03/01/2009 09:49:35 p.m. Se inicio una transaccion
+03/01/2009 09:49:35 p.m. Se termino la transaccion

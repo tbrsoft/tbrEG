@@ -1,0 +1,464 @@
+VERSION 5.00
+Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0"; "mscomctl.ocx"
+Object = "{BDC217C8-ED16-11CD-956C-0000C04E4C0A}#1.1#0"; "TABCTL32.OCX"
+Begin VB.PropertyPage ppListViewConsulta 
+   Caption         =   "ListViewConsulta"
+   ClientHeight    =   4845
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   4590
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   4845
+   ScaleWidth      =   4590
+   Begin TabDlg.SSTab SSTab1 
+      Height          =   4575
+      Left            =   120
+      TabIndex        =   0
+      Top             =   120
+      Width           =   4335
+      _ExtentX        =   7646
+      _ExtentY        =   8070
+      _Version        =   393216
+      Tabs            =   2
+      TabsPerRow      =   2
+      TabHeight       =   520
+      TabCaption(0)   =   "General"
+      TabPicture(0)   =   "ppListViewConsulta.pgx":0000
+      Tab(0).ControlEnabled=   -1  'True
+      Tab(0).Control(0)=   "Frame1"
+      Tab(0).Control(0).Enabled=   0   'False
+      Tab(0).ControlCount=   1
+      TabCaption(1)   =   "Encabezados"
+      TabPicture(1)   =   "ppListViewConsulta.pgx":001C
+      Tab(1).ControlEnabled=   0   'False
+      Tab(1).Control(0)=   "Line1"
+      Tab(1).Control(0).Enabled=   0   'False
+      Tab(1).Control(1)=   "Label2"
+      Tab(1).Control(1).Enabled=   0   'False
+      Tab(1).Control(2)=   "Label1"
+      Tab(1).Control(2).Enabled=   0   'False
+      Tab(1).Control(3)=   "N"
+      Tab(1).Control(3).Enabled=   0   'False
+      Tab(1).Control(4)=   "Line2"
+      Tab(1).Control(4).Enabled=   0   'False
+      Tab(1).Control(5)=   "lv"
+      Tab(1).Control(5).Enabled=   0   'False
+      Tab(1).Control(6)=   "cmdAgregar"
+      Tab(1).Control(6).Enabled=   0   'False
+      Tab(1).Control(7)=   "txtAncho"
+      Tab(1).Control(7).Enabled=   0   'False
+      Tab(1).Control(8)=   "txtMiembro"
+      Tab(1).Control(8).Enabled=   0   'False
+      Tab(1).Control(9)=   "txtNombre"
+      Tab(1).Control(9).Enabled=   0   'False
+      Tab(1).Control(10)=   "cmdQuitar"
+      Tab(1).Control(10).Enabled=   0   'False
+      Tab(1).Control(11)=   "cmdEditar"
+      Tab(1).Control(11).Enabled=   0   'False
+      Tab(1).Control(12)=   "cmdCancelar"
+      Tab(1).Control(12).Enabled=   0   'False
+      Tab(1).ControlCount=   13
+      Begin VB.CommandButton cmdCancelar 
+         Caption         =   "Cancelar"
+         Enabled         =   0   'False
+         Height          =   375
+         Left            =   -72720
+         TabIndex        =   16
+         Top             =   1440
+         Width           =   1215
+      End
+      Begin VB.CommandButton cmdEditar 
+         Caption         =   "Editar"
+         Height          =   615
+         Left            =   -71400
+         TabIndex        =   15
+         Top             =   2760
+         Width           =   615
+      End
+      Begin VB.Frame Frame1 
+         Height          =   4095
+         Left            =   120
+         TabIndex        =   10
+         Top             =   360
+         Width           =   4095
+         Begin VB.TextBox txtCampoImagen 
+            Height          =   285
+            Left            =   1440
+            TabIndex        =   23
+            Top             =   3600
+            Width           =   2475
+         End
+         Begin VB.CheckBox chkMultiSelect 
+            Caption         =   "Permitir seleccion multiple"
+            Height          =   255
+            Left            =   120
+            TabIndex        =   22
+            Top             =   2760
+            Width           =   2175
+         End
+         Begin VB.CheckBox chkCheckBoxes 
+            Caption         =   "Mostrar CheckBoxes"
+            Height          =   255
+            Left            =   120
+            TabIndex        =   21
+            Top             =   2400
+            Width           =   1935
+         End
+         Begin VB.TextBox txtCampoKey 
+            Height          =   285
+            Left            =   1470
+            TabIndex        =   20
+            Top             =   3210
+            Width           =   2415
+         End
+         Begin VB.CheckBox chkAllowModify 
+            Caption         =   "Permitir Modificar"
+            Height          =   255
+            Left            =   120
+            TabIndex        =   18
+            Top             =   2040
+            Width           =   2055
+         End
+         Begin VB.CheckBox chkAutoDistribuirColumnas 
+            Caption         =   "Auto Distribuir Columnas"
+            Height          =   255
+            Left            =   120
+            TabIndex        =   17
+            Top             =   1680
+            Width           =   2415
+         End
+         Begin VB.CheckBox chkGridLines 
+            Caption         =   "GridLines"
+            Height          =   255
+            Left            =   120
+            TabIndex        =   14
+            Top             =   1320
+            Width           =   1575
+         End
+         Begin VB.CheckBox chkFullRow 
+            Caption         =   "FullRowSelection"
+            Height          =   255
+            Left            =   120
+            TabIndex        =   13
+            Top             =   960
+            Width           =   1695
+         End
+         Begin VB.CheckBox chkHideEncabezados 
+            Caption         =   "HideEncabezados"
+            Height          =   255
+            Left            =   120
+            TabIndex        =   12
+            Top             =   600
+            Width           =   1815
+         End
+         Begin VB.CheckBox chkHideSelection 
+            Caption         =   "HideSelection"
+            Height          =   255
+            Left            =   120
+            TabIndex        =   11
+            Top             =   240
+            Width           =   1455
+         End
+         Begin VB.Label Label4 
+            Caption         =   "Campo Imagen:"
+            Height          =   255
+            Left            =   150
+            TabIndex        =   24
+            Top             =   3570
+            Width           =   1185
+         End
+         Begin VB.Label Label3 
+            Caption         =   "Campo Clave:"
+            Height          =   255
+            Left            =   120
+            TabIndex        =   19
+            Top             =   3150
+            Width           =   1095
+         End
+      End
+      Begin VB.CommandButton cmdQuitar 
+         Caption         =   "Quitar"
+         Height          =   615
+         Left            =   -71400
+         TabIndex        =   9
+         Top             =   2040
+         Width           =   615
+      End
+      Begin VB.TextBox txtNombre 
+         Height          =   285
+         Left            =   -73920
+         TabIndex        =   5
+         Top             =   360
+         Width           =   2415
+      End
+      Begin VB.TextBox txtMiembro 
+         Height          =   285
+         Left            =   -73920
+         TabIndex        =   4
+         Top             =   720
+         Width           =   2415
+      End
+      Begin VB.TextBox txtAncho 
+         Height          =   285
+         Left            =   -73920
+         TabIndex        =   3
+         Top             =   1080
+         Width           =   2415
+      End
+      Begin VB.CommandButton cmdAgregar 
+         Caption         =   "Agregar"
+         Height          =   375
+         Left            =   -73920
+         TabIndex        =   2
+         Top             =   1440
+         Width           =   1095
+      End
+      Begin MSComctlLib.ListView lv 
+         Height          =   2175
+         Left            =   -74880
+         TabIndex        =   1
+         Top             =   2040
+         Width           =   3375
+         _ExtentX        =   5953
+         _ExtentY        =   3836
+         View            =   3
+         LabelEdit       =   1
+         LabelWrap       =   -1  'True
+         HideSelection   =   -1  'True
+         FullRowSelect   =   -1  'True
+         _Version        =   393217
+         ForeColor       =   -2147483640
+         BackColor       =   -2147483643
+         BorderStyle     =   1
+         Appearance      =   1
+         NumItems        =   3
+         BeginProperty ColumnHeader(1) {BDD1F052-858B-11D1-B16A-00C0F0283628} 
+            Text            =   "Nombre"
+            Object.Width           =   2540
+         EndProperty
+         BeginProperty ColumnHeader(2) {BDD1F052-858B-11D1-B16A-00C0F0283628} 
+            SubItemIndex    =   1
+            Text            =   "Ancho"
+            Object.Width           =   1764
+         EndProperty
+         BeginProperty ColumnHeader(3) {BDD1F052-858B-11D1-B16A-00C0F0283628} 
+            SubItemIndex    =   2
+            Text            =   "Miembro"
+            Object.Width           =   2540
+         EndProperty
+      End
+      Begin VB.Line Line2 
+         BorderColor     =   &H80000005&
+         X1              =   -74900
+         X2              =   -70800
+         Y1              =   1900
+         Y2              =   1900
+      End
+      Begin VB.Label N 
+         Caption         =   "Nombre:"
+         Height          =   255
+         Left            =   -74880
+         TabIndex        =   8
+         Top             =   360
+         Width           =   615
+      End
+      Begin VB.Label Label1 
+         Caption         =   "Ancho (%):"
+         Height          =   255
+         Left            =   -74880
+         TabIndex        =   7
+         Top             =   1080
+         Width           =   855
+      End
+      Begin VB.Label Label2 
+         Caption         =   "Miembro:"
+         Height          =   255
+         Left            =   -74880
+         TabIndex        =   6
+         Top             =   720
+         Width           =   735
+      End
+      Begin VB.Line Line1 
+         BorderColor     =   &H80000003&
+         X1              =   -74880
+         X2              =   -70800
+         Y1              =   1890
+         Y2              =   1890
+      End
+   End
+End
+Attribute VB_Name = "ppListViewConsulta"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Private Sub chkAllowModify_Click()
+    Changed = True
+End Sub
+
+Private Sub chkAutoDistribuirColumnas_Click()
+    Changed = True
+End Sub
+
+Private Sub chkCheckBoxes_Click()
+    Changed = True
+End Sub
+
+Private Sub chkFullRow_Click()
+    Changed = True
+End Sub
+
+Private Sub chkGridLines_Click()
+    Changed = True
+End Sub
+
+Private Sub chkHideEncabezados_Click()
+    Changed = True
+End Sub
+
+Private Sub chkHideSelection_Click()
+    Changed = True
+End Sub
+
+Private Sub chkMultiSelect_Click()
+    Changed = True
+End Sub
+
+Private Sub cmdAgregar_Click()
+    If validar Then
+        If cmdAgregar.Caption = "Agregar" Then
+            Dim li As ListItem
+            Set li = lv.ListItems.Add(, , txtNombre)
+            li.ListSubItems.Add , , txtAncho
+            li.ListSubItems.Add , , txtMiembro
+        Else
+            lv.Enabled = True
+            cmdCancelar.Enabled = False
+            lv.SelectedItem.Text = txtNombre
+            lv.SelectedItem.ListSubItems(1).Text = txtAncho
+            lv.SelectedItem.ListSubItems(2).Text = txtMiembro
+            cmdAgregar.Caption = "Agregar"
+        End If
+        
+        cmdEditar.Enabled = True
+        cmdQuitar.Enabled = True
+        txtNombre = ""
+        txtAncho = ""
+        txtMiembro = ""
+        Changed = True
+    End If
+End Sub
+
+Private Function validar() As Boolean
+    Dim msg As String
+    If txtNombre = "" Then msg = vbCrLf + "Falta el nombre del encabezado!" + vbCrLf
+    If txtAncho = "" Then msg = msg + "Falta el ancho del encabezado!" + vbCrLf
+    If txtMiembro = "" Then msg = msg + "Falta el miembro del encabezado!" + vbCrLf
+    If Val(txtAncho) > 100 And Val(txtAncho) <> 0 Then msg = msg + "El ancho de cada campo tiene que ser menor que 100 y mayor que 0!" + vbCrLf
+
+    If msg = "" Then
+        validar = True
+    Else
+        MsgBox "Faltan los siguientes datos: " + msg
+        validar = False
+    End If
+End Function
+
+Private Sub cmdCancelar_Click()
+    txtNombre = ""
+    txtAncho = ""
+    txtMiembro = ""
+    lv.Enabled = True
+    cmdCancelar.Enabled = False
+    cmdEditar.Enabled = True
+    cmdQuitar.Enabled = True
+End Sub
+
+Private Sub cmdEditar_Click()
+    txtNombre = lv.SelectedItem.Text
+    txtAncho = lv.SelectedItem.ListSubItems(1).Text
+    txtMiembro = lv.SelectedItem.ListSubItems(2).Text
+    cmdCancelar.Enabled = True
+    lv.Enabled = False
+    cmdQuitar.Enabled = False
+    cmdEditar.Enabled = False
+    cmdAgregar.Caption = "Aceptar"
+    
+End Sub
+
+Private Sub cmdQuitar_Click()
+    If Not lv.SelectedItem Is Nothing Then
+        lv.ListItems.Remove (lv.SelectedItem.Index)
+        Changed = True
+        If lv.ListItems.Count = 0 Then
+            cmdQuitar.Enabled = False
+            cmdEditar.Enabled = False
+        End If
+    End If
+End Sub
+
+Private Sub lv_DblClick()
+    cmdEditar_Click
+End Sub
+
+Private Sub PropertyPage_ApplyChanges()
+    Dim li As ListItem
+    SelectedControls(0).Encabezados.Clear
+    For Each li In lv.ListItems
+           SelectedControls(0).Encabezados.Add li.Text, li.ListSubItems(2).Text, CInt(li.ListSubItems(1).Text)
+    Next
+    SelectedControls(0).HideEncabezados = IIf(chkHideEncabezados.value = 0, False, True)
+    SelectedControls(0).HideSelect = IIf(chkHideSelection.value = 0, False, True)
+    SelectedControls(0).GridLines = IIf(chkGridLines.value = 0, False, True)
+    SelectedControls(0).FullRowSelection = IIf(chkFullRow.value = 0, False, True)
+    SelectedControls(0).AutoDistribuirColumnas = IIf(chkAutoDistribuirColumnas.value = 0, False, True)
+    SelectedControls(0).AllowModify = IIf(chkAllowModify.value = 0, False, True)
+    SelectedControls(0).CampoKey = txtCampoKey.Text
+    SelectedControls(0).MultiSelect = IIf(chkMultiSelect.value = 0, False, True)
+    SelectedControls(0).ShowCheckBoxes = IIf(chkCheckBoxes.value = 0, False, True)
+    SelectedControls(0).CampoImage = txtCampoImagen.Text
+    PropertyPage_SelectionChanged
+End Sub
+
+Private Sub PropertyPage_SelectionChanged()
+    lv.ListItems.Clear
+    
+    chkHideEncabezados.value = IIf(SelectedControls(0).HideEncabezados, 1, 0)
+    chkHideSelection.value = IIf(SelectedControls(0).HideSelect, 1, 0)
+    chkGridLines.value = IIf(SelectedControls(0).GridLines, 1, 0)
+    chkFullRow.value = IIf(SelectedControls(0).FullRowSelection, 1, 0)
+    chkAutoDistribuirColumnas.value = IIf(SelectedControls(0).AutoDistribuirColumnas, 1, 0)
+    chkAllowModify.value = IIf(SelectedControls(0).AllowModify, 1, 0)
+    txtCampoKey.Text = SelectedControls(0).CampoKey
+    chkMultiSelect.value = IIf(SelectedControls(0).MultiSelect, 1, 0)
+    chkCheckBoxes.value = IIf(SelectedControls(0).ShowCheckBoxes, 1, 0)
+    txtCampoImagen.Text = SelectedControls(0).CampoImage
+    
+    Dim enc As LVCEncabezado
+    Dim li As ListItem
+    For Each enc In SelectedControls(0).Encabezados
+        Set li = lv.ListItems.Add(, , enc.nombre)
+        li.ListSubItems.Add , , enc.ancho
+        li.ListSubItems.Add , , enc.miembro
+    Next
+    
+    If lv.ListItems.Count = 0 Then
+        cmdQuitar.Enabled = False
+        cmdEditar.Enabled = False
+    End If
+    
+End Sub
+
+Private Sub txtAncho_KeyPress(KeyAscii As Integer)
+cad = "0123456789"
+If InStr(cad, Chr$(KeyAscii)) = 0 And Not KeyAscii = 8 Then KeyAscii = 0
+    
+End Sub
+
+Private Sub txtCampoImagen_Change()
+    Changed = True
+End Sub
+
+Private Sub txtCampoKey_Change()
+    Changed = True
+End Sub
